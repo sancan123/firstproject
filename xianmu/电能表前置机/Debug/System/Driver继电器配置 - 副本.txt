@@ -1,0 +1,5 @@
+[Relay]
+;闭合继电器
+CLSupplyOpen=0,10
+;断开继电器
+CLSupplyClose=8,1

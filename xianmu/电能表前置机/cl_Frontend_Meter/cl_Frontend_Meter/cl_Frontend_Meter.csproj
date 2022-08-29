@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40C2B53D-9405-47BA-8BEC-2D71ECF33F45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cl_Frontend_Meter</RootNamespace>
+    <AssemblyName>电表前置机</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>CL.ICO</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.0.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cl2018.cs" />
+    <Compile Include="EventsSendData.cs" />
+    <Compile Include="EventsReceiveData.cs" />
+    <Compile Include="File.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReg.Designer.cs">
+      <DependentUpon>FormReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CLBase.cs" />
+    <Compile Include="Reg.cs" />
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReg.resx">
+      <DependentUpon>FormReg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CL.ICO" />
+    <Content Include="Dnb.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E_CL188L\E_CL188L.csproj">
+      <Project>{866c0947-5809-4d95-b2ac-922773b13af7}</Project>
+      <Name>E_CL188L</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CL188M\E_CL188M\E_CL188M.csproj">
+      <Project>{a0a1e710-8516-4dac-8046-dfe6778206dd}</Project>
+      <Name>E_CL188M</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CL191B\E_CL191B\E_CL191B.csproj">
+      <Project>{4d7854ba-caa9-4543-b25f-c480fd0d88df}</Project>
+      <Name>E_CL191B</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CL2029D\E_CL2029D\E_CL2029D.csproj">
+      <Project>{8ce01ea6-5758-42f8-9593-7d7a5c83692c}</Project>
+      <Name>E_CL2029D</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CL303\E_CL303\E_CL303.csproj">
+      <Project>{4dd89b27-f223-4514-9079-bfc7eae8c196}</Project>
+      <Name>E_CL303</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CL309\E_CL309\E_CL309.csproj">
+      <Project>{739b039d-fd89-486a-889f-44c74443ddb9}</Project>
+      <Name>E_CL309</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CL3112\E_CL3112.csproj">
+      <Project>{183bfb46-8141-4bb1-9fa1-031085fb1672}</Project>
+      <Name>E_CL3112</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CL3115\E_CL3115\E_CL3115.csproj">
+      <Project>{6d59c90e-80fa-4504-b181-7908adabf4f6}</Project>
+      <Name>E_CL3115</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CL311V2\E_CL311V2\E_CL311V2.csproj">
+      <Project>{f0a4b7ad-126f-4462-8f28-b25af44e37ce}</Project>
+      <Name>E_CL311V2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CL485\E_CL485\E_CL485.csproj">
+      <Project>{58e95951-8a73-405c-98c5-ddff4315c6a3}</Project>
+      <Name>E_CL485</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\E_CLSocketModule\E_CLSocketModule.csproj">
+      <Project>{db19d95e-c779-4789-b6cf-650f90b065e8}</Project>
+      <Name>E_CLSocketModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,92 @@
+未处理的异常2022/5/16 10:30:08
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 E_CLSocketModule.SocketModule.Sock.COM32.SendData(Byte[]& vData, Boolean IsReturn, Int32 WaiteTime, Int32 MaxByte) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\SocketModule\Sock\COM32.cs:行号 154
+   在 E_CLSocketModule.SocketModule.Sock.Connection.Send(Byte[]& vData, Boolean isNeedReturn, Int32 WaiteTime, Int32 MaxByte) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\SocketModule\Sock\Connection.cs:行号 332
+   在 E_CLSocketModule.SocketModule.Sock.Connection.Send(SendPacket sendPack, RecvPacket recvPack, String PortName) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\SocketModule\Sock\Connection.cs:行号 110
+   在 E_CLSocketModule.SocketModule.SockPool.Send(String szSockName, SendPacket sendPacket, RecvPacket recvPacket) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\SocketModule\SockPool.cs:行号 184
+   在 E_CLSocketModule.DriverBase.SendData(Int32 port, Cus_EmComType ComType, String IP, String strSetting, SendPacket sendPacket, RecvPacket recvPacket) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\Device\DriverBase.cs:行号 142
+   在 E_CLSocketModule.DriverBase.SendData(StPortInfo stPort, SendPacket sendPacket, RecvPacket recvPacket) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\Device\DriverBase.cs:行号 107
+   在 E_CL2029D.CL2029D.SendPacketWithRetry(StPortInfo stPort, SendPacket sp, RecvPacket rp) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CL2029D\E_CL2029D\CL2029D.cs:行号 700
+   在 E_CL2029D.CL2029D.SetPowerSupplyType(Int32 elementType, Boolean isMeterTypeHGQ, Int32[] switchOpen, Int32[] switchClose) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CL2029D\E_CL2029D\CL2029D.cs:行号 495
+   在 cl_Frontend_Meter.FrmMain.FrmMain_Load(Object sender, EventArgs e) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\cl_Frontend_Meter\FrmMain.cs:行号 116
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, Int32 wParam, Int32 lParam)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.Show()
+   在 cl_Frontend_Meter.FormLogin.button1_Click(Object sender, EventArgs e) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\cl_Frontend_Meter\FormLogin.cs:行号 42
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 cl_Frontend_Meter.Program.Main() 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\cl_Frontend_Meter\Program.cs:行号 38
+True
+未处理的异常2022/5/16 10:32:15
+System.InvalidOperationException: 端口被关闭。
+   在 System.IO.Ports.SerialPort.DiscardOutBuffer()
+   在 E_CLSocketModule.SocketModule.Sock.COM32.SendData(Byte[]& vData, Boolean IsReturn, Int32 WaiteTime, Int32 MaxByte) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\SocketModule\Sock\COM32.cs:行号 154
+   在 E_CLSocketModule.SocketModule.Sock.Connection.Send(Byte[]& vData, Boolean isNeedReturn, Int32 WaiteTime, Int32 MaxByte) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\SocketModule\Sock\Connection.cs:行号 332
+   在 E_CLSocketModule.SocketModule.Sock.Connection.Send(SendPacket sendPack, RecvPacket recvPack, String PortName) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\SocketModule\Sock\Connection.cs:行号 110
+   在 E_CLSocketModule.SocketModule.SockPool.Send(String szSockName, SendPacket sendPacket, RecvPacket recvPacket) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\SocketModule\SockPool.cs:行号 184
+   在 E_CLSocketModule.DriverBase.SendData(Int32 port, Cus_EmComType ComType, String IP, String strSetting, SendPacket sendPacket, RecvPacket recvPacket) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\Device\DriverBase.cs:行号 142
+   在 E_CLSocketModule.DriverBase.SendData(StPortInfo stPort, SendPacket sendPacket, RecvPacket recvPacket) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CLSocketModule\Device\DriverBase.cs:行号 107
+   在 E_CL2029D.CL2029D.SendPacketWithRetry(StPortInfo stPort, SendPacket sp, RecvPacket rp) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CL2029D\E_CL2029D\CL2029D.cs:行号 700
+   在 E_CL2029D.CL2029D.SetPowerSupplyType(Int32 elementType, Boolean isMeterTypeHGQ, Int32[] switchOpen, Int32[] switchClose) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\E_CL2029D\E_CL2029D\CL2029D.cs:行号 495
+   在 cl_Frontend_Meter.FrmMain.FrmMain_Load(Object sender, EventArgs e) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\cl_Frontend_Meter\FrmMain.cs:行号 116
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.SendMessage(HandleRef hWnd, Int32 msg, Int32 wParam, Int32 lParam)
+   在 System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   在 System.Windows.Forms.Control.Show()
+   在 cl_Frontend_Meter.FormLogin.button1_Click(Object sender, EventArgs e) 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\cl_Frontend_Meter\FormLogin.cs:行号 42
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 cl_Frontend_Meter.Program.Main() 位置 C:\Users\Administrator\Desktop\电能表前置机\cl_Frontend_Meter\cl_Frontend_Meter\Program.cs:行号 38
+True
