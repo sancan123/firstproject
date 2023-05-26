@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CLDC_MeterProtocol.MeterProtocolManager" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAACIAAAQAAAAAAAAAAAAAAAAAAAAAAACAACIA=</HashCode>
+      <FileName>MeterProtocolManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Packet.MeterProtocolRecvPacket" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packet\MeterProtocolRecvPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Packet.MeterProtocolSendPacket" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packet\MeterProtocolSendPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Properties.Resources" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Properties.Settings" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.CAlpha" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACEAAAAAEQACACAACAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Protocols\CAlpha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.CAlphaFrame" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAMSAAAAQACAAAEAAMBAACIIgAACAAAAgEAAABQQQQk=</HashCode>
+      <FileName>Protocols\CAlphaFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.CDLT645" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIIgAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Protocols\CDLT645.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.CDLT6451997" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACAEAAAABB1AAdEAADhQAMACAsAASAAGiAAIAAAAA=</HashCode>
+      <FileName>Protocols\CDLT6451997.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.CDLT6452007" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACAEAEAABB1AgYEAABAAAAACAsAACAAOiAAIAAAAA=</HashCode>
+      <FileName>Protocols\CDLT6452007.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.CEDMI" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECGYEAABAAACQAAAEEAAEAIIAAhAAAAEBoAAAAAAAAo=</HashCode>
+      <FileName>Protocols\CEDMI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.CEDMIMK" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYADAEAAAABBxAAYEAABAAAAACAsAACAAGgAAIgAAAA=</HashCode>
+      <FileName>Protocols\CEDMIMK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.CIEC1107" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEEAACAMAgQAAIIFIiAAAICiAkAEYAAIAAAAQAAAI=</HashCode>
+      <FileName>Protocols\CIEC1107.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.CIEC1107Standard" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACAEAAAABB1IAYEAABAAAAACAsAACAAGgAAIgAAgA=</HashCode>
+      <FileName>Protocols\CIEC1107Standard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.ClA1600" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACAEAEAABBxAAYEAABAAAAAAAsAACAAGgAAAAAAAA=</HashCode>
+      <FileName>Protocols\ClA1600.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Protocols.ProtocolBase" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACAUqEAIBBxBAcEAIFAAAACAAugACAAGhAIAAAAAA=</HashCode>
+      <FileName>Protocols\ProtocolBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Settings.DgnConfigManager" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAACACAAAAIAAAAAAAAAAAAABIAAAgAAAAAAAA=</HashCode>
+      <FileName>Settings\DgnConfigManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Settings.DgnPortInfo" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAE=</HashCode>
+      <FileName>Settings\DgnPortInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Settings.frmDgnSetting" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgACAAAiAAABEAACCAAEhCAAA4BAgAAAQAAQAAAiA=</HashCode>
+      <FileName>Settings\frmDgnSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Settings.frmPortInfo" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAECABABEAAACAIMACAAAIAEFAAQQAAAgAEgA=</HashCode>
+      <FileName>Settings\frmPortInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_MeterProtocol.Util.Functions" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAQAAA=</HashCode>
+      <FileName>Util\Functions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CLDC_MeterProtocol.IMeterProtocol" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYACAEIEAABBxAAYEAAFAAAACAAsAACAAGgAAAAAAAA=</HashCode>
+      <FileName>IMeterProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CLDC_MeterProtocol.Settings.PortType" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Settings\DgnConfigManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

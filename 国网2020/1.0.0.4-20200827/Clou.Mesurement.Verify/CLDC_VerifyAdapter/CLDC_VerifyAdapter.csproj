@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDEE401E-88BA-46CB-9438-FDF529E2CC2C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CLDC_VerifyAdapter</RootNamespace>
+    <AssemblyName>CLDC_VerifyAdapter</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Resource\Client\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Resource\Verify\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=8.2.0.2, Culture=neutral, PublicKeyToken=5fd520d36328f741, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapter.cs" />
+    <Compile Include="EventLog\EL_ClearDemand需量清零事件.cs" />
+    <Compile Include="EventLog\EL_ClearEnergyJ（计）电量清零事件.cs" />
+    <Compile Include="EventLog\EL_ClearEnergy电量清零事件.cs" />
+    <Compile Include="EventLog\EL_ClearEventG（管）事件清零 .cs" />
+    <Compile Include="EventLog\EL_ClearEventJ（计）事件清零.cs" />
+    <Compile Include="EventLog\EL_ClearEvent管理单元事件清零.cs" />
+    <Compile Include="EventLog\EL_CurrentPhaseImbalance（管）电流负序三相不平衡记录.cs" />
+    <Compile Include="EventLog\EL_CurrentReversePhase电流逆相序事件.cs" />
+    <Compile Include="EventLog\EL_EventUploadSetG管理事件上报和设置.cs" />
+    <Compile Include="EventLog\EL_EventUploadSetJ计量-事件上报和设置.cs" />
+    <Compile Include="EventLog\EL_KeyUpdate密钥更新事件.cs" />
+    <Compile Include="EventLog\EL_ManagerClearEnergyForever管理单元清零事件永久事件.cs" />
+    <Compile Include="EventLog\EL_OutCheChangCheck外部恒定磁场检测记录.cs" />
+    <Compile Include="EventLog\EL_OverAlarmTerminalTemper端子座温度超限告警.cs" />
+    <Compile Include="EventLog\EL_OverFrequency频率超限事件.cs" />
+    <Compile Include="EventLog\EL_OverHarmonic谐波超限.cs" />
+    <Compile Include="EventLog\EL_OverTerminalTemper端子座温度超限跳闸.cs" />
+    <Compile Include="EventLog\EL_PowerMethodProgram有功组合方式编程记录.cs" />
+    <Compile Include="EventLog\EL_StepTimeProgram阶梯表编程事件.cs" />
+    <Compile Include="EventLog\EL_TimeProgram时段表编程事件.cs" />
+    <Compile Include="EventLog\EL_VoltageImbalance电压不平衡事件.cs" />
+    <Compile Include="EventLog\EL_VoltagePhaseImbalance（管）电压负序三相不平衡记录.cs" />
+    <Compile Include="EventLog\EL_VoltageReversePhase电压逆相序事件.cs" />
+    <Compile Include="Frozen\Freeze_ELMinute分钟冻结补冻.cs" />
+    <Compile Include="Function\HarmonicMonitor\HarmonicMonitor谐波2-40次监测.cs" />
+    <Compile Include="Function\LadderElectricYear（年）阶梯电量.cs" />
+    <Compile Include="Function\OnOffPower\RemoteBreakRelay拉闸命令.cs" />
+    <Compile Include="Function\OnOffPower\RemoteCloseRelay合闸命令.cs" />
+    <Compile Include="Function\OnOffPower\ReplayFunction状态反馈.cs" />
+    <Compile Include="Function\OperationFution\ConditionMonitor状态监测信息.cs" />
+    <Compile Include="Function\OperationFution\EachLinkWc各环节误差数据.cs" />
+    <Compile Include="Function\OperationFution\InstallationSite电能表安装位置.cs" />
+    <Compile Include="Function\OperationFution\PowerSalesContract售电合同相关信息.cs" />
+    <Compile Include="Function\PowerQualityMonitor\HarmonicMonitor谐波.cs" />
+    <Compile Include="Function\PowerQualityMonitor\InterHarmonicsMonitor谐间波.cs" />
+    <Compile Include="Function\PowerQualityMonitor\NegativeSequenceUn三相不平衡%28负序%29.cs" />
+    <Compile Include="Function\PowerRetainLift保电解除.cs" />
+    <Compile Include="Function\PowerRetainOut保电时拉闸.cs" />
+    <Compile Include="Function\RateTimeFunction\RatePolishing费率时段补齐.cs" />
+    <Compile Include="Function\RateTimeFunction\RateSetByBlue蓝牙设置.cs" />
+    <Compile Include="Function\RateTimeFunction\RateSetByCarrier上行模块设置.cs" />
+    <Compile Include="Function\RateTimeFunction\RateTimeSet费率时段设置.cs" />
+    <Compile Include="Function\RateTimeFunction\RateValidityCheck费率时段合法性检测.cs" />
+    <Compile Include="Function\RateTimeFunction\SpecialRateSet特殊费率时段.cs" />
+    <Compile Include="Function\RetainPower保电命令.cs" />
+    <Compile Include="Function\SignalOutPut\PowerPulseOutPut电能量脉冲输出.cs" />
+    <Compile Include="Function\SignalOutPut\PulsePerSecond秒脉冲输出.cs" />
+    <Compile Include="Function\SwicthOutDelayedPowerRetain拉闸前延时过程中保电.cs" />
+    <Compile Include="Function\SwitchOutPowerRetain拉闸时保电.cs" />
+    <Compile Include="Function\TerminalTemper\ReadTerminalTemper读取温度变化量.cs" />
+    <Compile Include="Function\TerminalTemper\SetTerminalTemMinChange端子温度分钟变化量报警阈值设置.cs" />
+    <Compile Include="Function\TerminalTemper\SetTerminalTemOut端子温度超限跳闸阈值设置.cs" />
+    <Compile Include="Function\TerminalTemper\SetTerminalTemUn端子温度不平衡报警阈值设置.cs" />
+    <Compile Include="Function\TerminalTemper\SetTerminalTemWarm端子温度超限报警阈值设置.cs" />
+    <Compile Include="Function\VoltageQualifiedRate\DayVoltageQualifiedRateItem日电压合格率监测项.cs" />
+    <Compile Include="Function\VoltageQualifiedRate\DayVoltageRate日电压合格率.cs" />
+    <Compile Include="Function\VoltageQualifiedRate\HightVoltageCheck高电压事件判断.cs" />
+    <Compile Include="Function\VoltageQualifiedRate\LowVoltageCheck低电压事件判断.cs" />
+    <Compile Include="Function\VoltageQualifiedRate\MonthVoltageQualifiedRateItem月电压合格率监测项.cs" />
+    <Compile Include="Function\VoltageQualifiedRate\MonthVoltageRate月电压合格率.cs" />
+    <Compile Include="Function\VoltageQualifiedRate\PowerOffStatistics停电统计.cs" />
+    <Compile Include="Function\VoltageQualifiedRate\VoltageComputingMethod电压监测计算方法.cs" />
+    <Compile Include="Influence\AuxiliaryPlant辅助装置工作试验.cs" />
+    <Compile Include="Influence\ConstantFieldInduction外部恒定磁感应.cs" />
+    <Compile Include="Influence\CurrentChange负载电流快速改变试验.cs" />
+    <Compile Include="Influence\DampedOscillation阻尼震荡波试验.cs" />
+    <Compile Include="Influence\DustProof防尘试验.cs" />
+    <Compile Include="Influence\EarthFault接地故障试验.cs" />
+    <Compile Include="Influence\ElectromagneticField射频电磁场（无电流）试验.cs" />
+    <Compile Include="Influence\ElectrostaticDischarge静电放电试验.cs" />
+    <Compile Include="Influence\FieldFree外部工频磁场无负载.cs" />
+    <Compile Include="Influence\IpulseVoltage脉冲电压试验.cs" />
+    <Compile Include="Influence\MagneticFieldInterference外部工频磁场干扰试验.cs" />
+    <Compile Include="Influence\RedioDisturbance无线电干扰抑制试验.cs" />
+    <Compile Include="Influence\RingingWave振铃波试验.cs" />
+    <Compile Include="Influence\SelfHeating自热试验.cs" />
+    <Compile Include="Influence\ShortTiomOverCurrent短时过电流试验.cs" />
+    <Compile Include="Influence\SunProtection阳光辐射防护.cs" />
+    <Compile Include="Influence\SurgeTest浪涌试验.cs" />
+    <Compile Include="Influence\TemperatureChange环境温度改变试验.cs" />
+    <Compile Include="Influence\VoltageDip电压暂降和短时中断试验.cs" />
+    <Compile Include="Influence\Waterproof防水试验.cs" />
+    <Compile Include="Influence\WcBeforeInfluence影响前误差.cs" />
+    <Compile Include="MeterClearZero\ExceptMeterNoSet异常禁止清零.cs" />
+    <Compile Include="MeterClearZero\MeterClearEnergyG管理清零操作.cs" />
+    <Compile Include="MeterClearZero\MeterClearEnergyJ计量清零操作.cs" />
+    <Compile Include="MeterClearZero\MeterClearLogG管理永久记录.cs" />
+    <Compile Include="MeterClearZero\MeterClearLogJ计量永久记录.cs" />
+    <Compile Include="MeterClearZero\MeterNoSetG管禁止设定.cs" />
+    <Compile Include="MeterClearZero\MeterNoSetJ计禁止设定.cs" />
+    <Compile Include="Multicore\CheckMeterInfo测量监测.cs" />
+    <Compile Include="Multicore\LeftEnergyAccuracy剩余电能量递减准确度.cs" />
+    <Compile Include="Multicore\PowerUInfluence电源电压影响.cs" />
+    <Compile Include="Multi\Dgn_BlueToothTest.cs" />
+    <Compile Include="Safe\BlueToothSafe（管）蓝牙通信安全策略.cs" />
+    <Compile Include="Safe\OnlyManagerSet只接受管理单元设置.cs" />
+    <Compile Include="Safe\ReadDataG安全防护（管）读数据.cs" />
+    <Compile Include="Safe\RightKetClockSet（计）正式密钥时钟设置.cs" />
+    <Compile Include="Safe\RightKetNoClearEnergyG（计）正式密钥不许清零.cs" />
+    <Compile Include="Safe\WriteDataG安全防护（管）写数据 .cs" />
+    <Compile Include="SecondStage\ActivePowerMaxDemand有功最大需量准确性.cs" />
+    <Compile Include="SecondStage\BacklitLight背光点亮.cs" />
+    <Compile Include="SecondStage\BasicDisplayFunction基本显示功能.cs" />
+    <Compile Include="SecondStage\BeforeAndAfterTheSettlementAate结算日前后校时.cs" />
+    <Compile Include="SecondStage\BlackoutDisplay停电时显示.cs" />
+    <Compile Include="SecondStage\BlueSetTime蓝牙校时.cs" />
+    <Compile Include="SecondStage\BroadcastingTimeAddress广播地址校时.cs" />
+    <Compile Include="SecondStage\BroadcastingTimeMultiCom多种通讯方式校时.cs" />
+    <Compile Include="SecondStage\BroadcastingTimeNormal正常校时.cs" />
+    <Compile Include="SecondStage\BroadcastingTimePoint点对点校时.cs" />
+    <Compile Include="SecondStage\BroadcastingTimeRepeat.重复校时.cs" />
+    <Compile Include="SecondStage\BroadcastingTimeZero零点前后校时.cs" />
+    <Compile Include="SecondStage\BroadcastingTime广播校时.cs" />
+    <Compile Include="SecondStage\ClearDemand需量清零.cs" />
+    <Compile Include="SecondStage\ClockCheck时钟校验.cs" />
+    <Compile Include="SecondStage\ClockSetCheck时钟设置合法性检测.cs" />
+    <Compile Include="SecondStage\CombinedError组合误差.cs" />
+    <Compile Include="SecondStage\ConstantVerifyHot热插拔试验.cs" />
+    <Compile Include="SecondStage\DemandCycleSignalOutput需量周期信号输出.cs" />
+    <Compile Include="SecondStage\DemandSetting需量参数设置.cs" />
+    <Compile Include="SecondStage\DisplayMode显示方式.cs" />
+    <Compile Include="SecondStage\DownlinkLoad下行模块带载.cs" />
+    <Compile Include="SecondStage\FourQuadrantReactiveMaxDemand第四象限无功最大需量.cs" />
+    <Compile Include="SecondStage\GraphicSymbolDisplay图形符号显示.cs" />
+    <Compile Include="SecondStage\HistoryMeasurement历史计量.cs" />
+    <Compile Include="SecondStage\MaxDemandByError最大需量误差.cs" />
+    <Compile Include="SecondStage\MaxDemandError需量示指误差.cs" />
+    <Compile Include="SecondStage\MeasuringInfuence计量影响.cs" />
+    <Compile Include="SecondStage\OneQuadrantReactiveMaxDemand第一象限无功最大需量.cs" />
+    <Compile Include="SecondStage\OnTheWholeShow上电全显.cs" />
+    <Compile Include="SecondStage\PowerConsumptionInfluence功耗影响.cs" />
+    <Compile Include="SecondStage\PowerCutsForFrozen停电补冻.cs" />
+    <Compile Include="SecondStage\PowerDecimalSetting电能小数位设置.cs" />
+    <Compile Include="SecondStage\PowerSupplyMode电源供电方式.cs" />
+    <Compile Include="SecondStage\PullLight拉闸指示灯.cs" />
+    <Compile Include="SecondStage\PushMessage管理单元向计量单元推送显示信息.cs" />
+    <Compile Include="SecondStage\RatePeriodSet费率时段设置.cs" />
+    <Compile Include="SecondStage\ReactivePower1MaxDemand无功组合1最大需量准确性.cs" />
+    <Compile Include="SecondStage\ReactivePower2MaxDemand无功组合2最大需量准确性.cs" />
+    <Compile Include="SecondStage\RemainingCurrentManual剩余电流准确度检测手动.cs" />
+    <Compile Include="SecondStage\RemainingCurrentWarn剩余电流报警试验.cs" />
+    <Compile Include="SecondStage\RemainingCurrent剩余电流准确度检测.cs" />
+    <Compile Include="SecondStage\SelfHeating自热实验.cs" />
+    <Compile Include="SecondStage\SetDisplayContent设置显示内容.cs" />
+    <Compile Include="SecondStage\SettlementDemand需量结算.cs" />
+    <Compile Include="SecondStage\ThreeQuadrantReactiveMaxDemand第三象限无功最大需量.cs" />
+    <Compile Include="SecondStage\TimeCalibrationWithMultipleCommunication多种通讯方式校时.cs" />
+    <Compile Include="SecondStage\TimeIntervalSwitching时段投切前后校时.cs" />
+    <Compile Include="SecondStage\TimeSharingMeasurement分时计量.cs" />
+    <Compile Include="SecondStage\TimingSafety校时安全性.cs" />
+    <Compile Include="SecondStage\TwoQuadrantReactiveMaxDemand第二象限无功最大需量.cs" />
+    <Compile Include="SecondStage\UplinkComCalibration上行通讯模块校时.cs" />
+    <Compile Include="SecondStage\UplinkLoad上行模块带载.cs" />
+    <Compile Include="CostSouth\LocalMode\Alerting.cs" />
+    <Compile Include="CostSouth\LocalMode\BuyCardParamUpdate.cs" />
+    <Compile Include="CostSouth\LocalMode\CardTest_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\ConnProtocol.cs" />
+    <Compile Include="CostSouth\LocalMode\DirectRemoteControl_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\Overdraw_NZ.cs" />
+    <Compile Include="CostSouth\LocalMode\ParamCardParamUpdate_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteBreakRelay_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\PublicParam1Update.cs" />
+    <Compile Include="CostSouth\LocalMode\RemotePrivateParam1Update_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\RepairCardUpdate.cs" />
+    <Compile Include="CostSouth\LocalMode\CalculateLadderElectrovalence.cs" />
+    <Compile Include="CostSouth\LocalMode\CalculatePartRateElectrovalence.cs" />
+    <Compile Include="CostSouth\LocalMode\CompareToProgram.cs" />
+    <Compile Include="CostSouth\LocalMode\ControlCmdTime.cs" />
+    <Compile Include="CostSouth\LocalMode\DirectRemoteControl.cs" />
+    <Compile Include="CostSouth\LocalMode\IdentityAuthentication.cs" />
+    <Compile Include="CostSouth\LocalMode\InfraredAuth.cs" />
+    <Compile Include="CostSouth\LocalMode\MacAttack.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteBreakRelay.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteCloseRelay.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteEnPower.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteIdentityLose.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteIdentityTime.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteIdentityTimeliness.cs" />
+    <Compile Include="CostSouth\LocalMode\RightParameterRecoverKey_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\RightParameterUpdateKey_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\ShowFunction.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Bjje2.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Dqtjtb2.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Dqtjtb1.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Dyhgqbb.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Dlhgqbb.cs" />
+    <Compile Include="CostSouth\ReaderParameter\DqtFl.cs" />
+    <Compile Include="CostSouth\ReaderParameter\LtsqbChangTime.cs" />
+    <Compile Include="CostSouth\ReaderParameter\SfrzTime.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Bjje1.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Rsds.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Fls.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Dytsqb.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Dytsdb1.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Dytsdb2.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Jsr1.cs" />
+    <Compile Include="CostSouth\ReaderParameter\LtrsdbChangTime.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Tjjexz.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Hzyxjexz.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Tzjexz.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Dqtjtsqb.cs" />
+    <Compile Include="CostSouth\ReaderParameter\LtjtsqChangTime.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Nsqs.cs" />
+    <Compile Include="CostSouth\ReaderParameter\TzysTime.cs" />
+    <Compile Include="CostSouth\ReaderParameter\Rsdbs.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Dqtjtb2.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Dqtjtb1.cs" />
+    <Compile Include="CostSouth\RecoverParameter\DqtFl.cs" />
+    <Compile Include="CostSouth\RecoverParameter\LtsqbChangTime.cs" />
+    <Compile Include="CostSouth\RecoverParameter\SetTime.cs" />
+    <Compile Include="CostSouth\RecoverParameter\SfrzTime.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Dlhgqbb.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Dyhgqbb.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Bjje2.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Rsds.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Fls.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Dytsqb.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Dytsdb1.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Dytsdb2.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Jsr1.cs" />
+    <Compile Include="CostSouth\RecoverParameter\LtrsdbChangTime.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Tjjexz.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Hzyxjexz.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Tzjexz.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Dqtjtsqb.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Bjje1.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Nsqs.cs" />
+    <Compile Include="CostSouth\RecoverParameter\TzysTime.cs" />
+    <Compile Include="CostSouth\RecoverParameter\Rsdbs.cs" />
+    <Compile Include="CostSouth\RemoteMode\CardTest_Fz.cs" />
+    <Compile Include="CostSouth\RemoteMode\ChangeLocalMode.cs" />
+    <Compile Include="CostSouth\RemoteMode\ChangeLocalMode_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\ChangeRemoteModel.cs" />
+    <Compile Include="CostSouth\LocalMode\ChangeRemoteModel_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\CounterfeitCardAttack.cs" />
+    <Compile Include="CostSouth\LocalMode\InitCardParamUpdate.cs" />
+    <Compile Include="CostSouth\LocalMode\LocalIdentity.cs" />
+    <Compile Include="CostSouth\LocalMode\LocalityClear.cs" />
+    <Compile Include="CostSouth\LocalMode\MistakeParameterUpdateKey.cs" />
+    <Compile Include="CostSouth\LocalMode\AlertingAndRelieve.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteIdentity.cs" />
+    <Compile Include="CostSouth\LocalMode\RightParameterRecoverKey.cs" />
+    <Compile Include="CostSouth\LocalMode\RightParameterUpdateKey.cs" />
+    <Compile Include="CostSouth\RemoteMode\DirectRemoteControl_Fz.cs" />
+    <Compile Include="CostSouth\RemoteMode\MeterClear_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\Overdraw.cs" />
+    <Compile Include="CostSouth\LocalMode\ParamCardInitizalition.cs" />
+    <Compile Include="CostSouth\LocalMode\ParamCardParamUpdate.cs" />
+    <Compile Include="CostSouth\LocalMode\PrivateParam1Update.cs" />
+    <Compile Include="CostSouth\LocalMode\PurseInitizalition.cs" />
+    <Compile Include="CostSouth\LocalMode\PurseInitizalition_Fz.cs" />
+    <Compile Include="CostSouth\LocalMode\PurseRecedeMoney.cs" />
+    <Compile Include="CostSouth\RemoteMode\MistakeParameterUpdateKey.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemoteBreakRelay.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemoteBreakRelay_Fz.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemoteClear.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteInitUser.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteInMoney.cs" />
+    <Compile Include="CostSouth\RemoteMode\AlertingAndRelieve.cs" />
+    <Compile Include="CostSouth\RemoteMode\CompareToProgram.cs" />
+    <Compile Include="CostSouth\RemoteMode\DirectRemoteControl.cs" />
+    <Compile Include="CostSouth\RemoteMode\IdentityAuthentication.cs" />
+    <Compile Include="CostSouth\RemoteMode\InfraredAuth.cs" />
+    <Compile Include="CostSouth\RemoteMode\MacAttack.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemoteCloseRelay.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemoteEnPower.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemoteIdentity.cs" />
+    <Compile Include="CostSouth\LocalMode\RemotePrivateParam2Update.cs" />
+    <Compile Include="CostSouth\LocalMode\RemotePublicParam2Update.cs" />
+    <Compile Include="CostSouth\LocalMode\RemoteReadEsam.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemoteIdentityLose.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemoteIdentityTime.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemoteIdentityTimeliness.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemotePrivateParam2Update.cs" />
+    <Compile Include="CostSouth\RemoteMode\RemotePublicParam2Update.cs" />
+    <Compile Include="CostSouth\RemoteMode\RightParameterRecoverKey.cs" />
+    <Compile Include="CostSouth\RemoteMode\RightParameterUpdateKey.cs" />
+    <Compile Include="CostSouth\RemoteMode\RightParameterRecoverKey_Fz.cs" />
+    <Compile Include="CostSouth\RemoteMode\RightParameterUpdateKey_Fz.cs" />
+    <Compile Include="CostSouth\RemoteMode\ShowFunction.cs" />
+    <Compile Include="CostSouth\RemoteMode\ControlCmdTime.cs" />
+    <Compile Include="CostSouth\LocalMode\TerminalBuyCardParamUpdate.cs" />
+    <Compile Include="CostSouth\LocalMode\TerminalRepairCardUpdate.cs" />
+    <Compile Include="CostSouth\LocalMode\TerminalInitCardParamUpdate.cs" />
+    <Compile Include="CostSouth\LocalMode\TerminalInitUser.cs" />
+    <Compile Include="CostSouth\LocalMode\TerminalInMoney.cs" />
+    <Compile Include="CostSouth\LocalMode\TerminalRepairCard.cs" />
+    <Compile Include="CostSouth\LocalMode\TerminalReplyWrite.cs" />
+    <Compile Include="CostSouth\LocalMode\UserCardInitUser.cs" />
+    <Compile Include="CostSouth\LocalMode\UserCardInMoney.cs" />
+    <Compile Include="CostSouth\LocalMode\UserCardRepairCard.cs" />
+    <Compile Include="CostSouth\LocalMode\UserCardReplyWrite.cs" />
+    <Compile Include="CostSouth\RemoteMode\TerminalRecoverElectricity.cs" />
+    <Compile Include="CostSouth\RemoteMode\UserCardRecoverElectricity.cs" />
+    <Compile Include="SecondStage\ActivePowerSettings组合有功方式设置.cs" />
+    <Compile Include="SecondStage\ReactivePowerSettings组合无功.cs" />
+    <Compile Include="EventLog\EL_ChangePart管理单元更换.cs" />
+    <Compile Include="EventLog\EL_CommunicationBreak管理单元通讯异常.cs" />
+    <Compile Include="EventLog\EL_ImbalanceTerminalTemper端子座温度不平衡.cs" />
+    <Compile Include="EventLog\EL_MisoperationOfLoadSwitch负荷开关误动作.cs" />
+    <Compile Include="EventLog\EL_PassVoltsge电压合格率事件.cs" />
+    <Compile Include="EventLog\EL_Acdump掉电事件.cs" />
+    <Compile Include="EventLog\EL_CalibrationTime校时事件.cs" />
+    <Compile Include="EventLog\EL_CurrentImbalance电流不平衡事件.cs" />
+    <Compile Include="EventLog\EL_DirectRemoteControl合闸.cs" />
+    <Compile Include="EventLog\EL_ErrorLoadSwitch拉闸.cs" />
+    <Compile Include="EventLog\EL_LoseCurrent失流事件.cs" />
+    <Compile Include="EventLog\EL_LoseFullVoltage全失压事件.cs" />
+    <Compile Include="EventLog\EL_LosePhase 断相事件.cs" />
+    <Compile Include="EventLog\EL_LoseVoltage失压事件.cs" />
+    <Compile Include="EventLog\EL_OpenButtonCover开端钮盖事件.cs" />
+    <Compile Include="EventLog\EL_OpenMeterCover开表盖.cs" />
+    <Compile Include="EventLog\EL_OverCurrent过流事件.cs" />
+    <Compile Include="EventLog\EL_OverLoad过载事件.cs" />
+    <Compile Include="EventLog\EL_OverVoltage过压事件.cs" />
+    <Compile Include="EventLog\EL_Program编程事件.cs" />
+    <Compile Include="EventLog\EL_ReplaceClockBattery时钟电池更换总次数.cs" />
+    <Compile Include="EventLog\EL_ReversePhase逆相序事件.cs" />
+    <Compile Include="EventLog\EL_ReverseTrend 潮流反向事件.cs" />
+    <Compile Include="EventLog\EL_SoftwareUp软件升级.cs" />
+    <Compile Include="EventLog\EL_StopCurrent 断流事件.cs" />
+    <Compile Include="EventLog\EL_Timing广播校时.cs" />
+    <Compile Include="EventLog\EL_TransDemand需量超限.cs" />
+    <Compile Include="EventLog\EL_TransDownVoltage电压超下限.cs" />
+    <Compile Include="EventLog\EL_TransPF功率因数超下限事件.cs" />
+    <Compile Include="EventLog\EL_ClockUnderVoltage时钟电池欠压.cs" />
+    <Compile Include="EventLog\EL_TransUpVoltage电压超上限.cs" />
+    <Compile Include="EventLog\EL_UnderVoltage欠压事件.cs" />
+    <Compile Include="EventLog\EL_UpheavalTerminalTemper端子座温度剧变.cs" />
+    <Compile Include="EventLog\EventLogBase.cs" />
+    <Compile Include="Form_Ariticial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Ariticial.Designer.cs">
+      <DependentUpon>Form_Ariticial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frozen\FreezeBase.cs" />
+    <Compile Include="Frozen\FreezeFactory.cs" />
+    <Compile Include="Frozen\Freeze_Appoint.cs" />
+    <Compile Include="Frozen\Freeze_Minute.cs" />
+    <Compile Include="Frozen\Freeze_Day.cs" />
+    <Compile Include="Frozen\Freeze_Instant.cs" />
+    <Compile Include="Frozen\Freeze_Timing.cs" />
+    <Compile Include="Frozen\Freeze_Whole_Point.cs" />
+    <Compile Include="Function\AutoEnPower自保电功能.cs" />
+    <Compile Include="Function\FC_AlertingAndRelieve.cs" />
+    <Compile Include="Function\FC_Computation.cs" />
+    <Compile Include="Function\FC_MaxDemandFunction.cs" />
+    <Compile Include="Function\FC_PulseOutPut.cs" />
+    <Compile Include="Function\FC_RatePeriodFunction.cs" />
+    <Compile Include="Function\FC_RemoteBreakRelay.cs" />
+    <Compile Include="Function\FC_Show.cs" />
+    <Compile Include="Function\FC_Timing.cs" />
+    <Compile Include="Function\FunctionBase.cs" />
+    <Compile Include="Function\FunctionFactory.cs" />
+    <Compile Include="Function\LadderElectric（月）阶梯电量.cs" />
+    <Compile Include="Function\SaveData数据存储 .cs" />
+    <Compile Include="Influence\AlternatingDampHeat交变湿热试验.cs" />
+    <Compile Include="Influence\ConductionDifferentialModeCurrentInterference传导差模电流干扰试验.cs" />
+    <Compile Include="Influence\ConductionInterferenceInducedByRfField射频场感应的传导干扰试验.cs" />
+    <Compile Include="Influence\CuspWave尖顶波.cs" />
+    <Compile Include="Influence\Durability耐久性试验.cs" />
+    <Compile Include="Influence\ExternalConstantMagneticField外部恒定磁场试验.cs" />
+    <Compile Include="Influence\ExternalPowerFrequencyMagneticField外部工频磁场试验.cs" />
+    <Compile Include="Influence\FastTransientImpulseGroup快速瞬变脉冲群试验.cs" />
+    <Compile Include="Influence\FrequencyChange频率改变.cs" />
+    <Compile Include="Influence\Harmonic5th第5次谐波.cs" />
+    <Compile Include="Influence\HarmonicContent谐波分量.cs" />
+    <Compile Include="Influence\HighHarmonic高次谐波试验.cs" />
+    <Compile Include="Influence\HighTemperature高温试验.cs" />
+    <Compile Include="Influence\InterHarmonics_间谐波.cs" />
+    <Compile Include="Influence\InversePhaseSequence逆向序.cs" />
+    <Compile Include="Influence\LoadUnbalance负载不平衡.cs" />
+    <Compile Include="Influence\LowTemperature低温试验.cs" />
+    <Compile Include="Influence\RadiofrequencyElectromagneticFields射频电磁场（有电流）试验.cs" />
+    <Compile Include="Influence\SquareTopWave平顶波.cs" />
+    <Compile Include="Influence\Subharmonic次谐波.cs" />
+    <Compile Include="Influence\ToAttack冲击试验.cs" />
+    <Compile Include="Influence\Vibration振动试验.cs" />
+    <Compile Include="Influence\VoltageChange电压改变.cs" />
+    <Compile Include="Influence\VoltageInterruption一相或两相电压中断.cs" />
+    <Compile Include="IWorkDone.cs" />
+    <Compile Include="MeterProtocolAdapter.cs" />
+    <Compile Include="MulitThread\EncryptionWorkThread.cs" />
+    <Compile Include="MulitThread\MulitEncryptionWorkThreadManager.cs" />
+    <Compile Include="MulitThread\WorkThread.cs" />
+    <Compile Include="MulitThread\MulitThreadManager.cs" />
+    <Compile Include="CostSouth\LocalMode\CheckMeterInfo测量监测.cs" />
+    <Compile Include="Multicore\CombinationError组合最大允许误差.cs" />
+    <Compile Include="Multicore\HarmonicMeasureError谐波计量误差.cs" />
+    <Compile Include="Multicore\HarmonicTest谐波监测.cs" />
+    <Compile Include="Multicore\OverVoltage过电压试验.cs" />
+    <Compile Include="Multicore\Softwarethan软件对比功能.cs" />
+    <Compile Include="Multi\Dgn_CheckRam_Energy.cs" />
+    <Compile Include="Multi\Dgn_CheckRam_Log.cs" />
+    <Compile Include="Multi\Dgn_ClearDemand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Multi\Dgn_ClearEnerfy.cs" />
+    <Compile Include="Multi\Dgn_ClockError.cs" />
+    <Compile Include="Multi\Dgn_GPS.cs" />
+    <Compile Include="Multi\Dgn_LeapYear.cs" />
+    <Compile Include="Multi\Dgn_MaxDemand.cs" />
+    <Compile Include="Multi\Dgn_MeasureAndMonitor.cs" />
+    <Compile Include="Multi\Dgn_PeriodChange.cs" />
+    <Compile Include="Multi\Dgn_RatePeriod.cs" />
+    <Compile Include="Multi\Dgn_ReadEnerfy.cs" />
+    <Compile Include="Multi\Dgn_ReadPeriod.cs" />
+    <Compile Include="Multi\Dgn_Register.cs" />
+    <Compile Include="PrepareTest\PreBase.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\EquipHelper.cs" />
+    <Compile Include="Helper\LogHelper.cs" />
+    <Compile Include="Helper\MeterDataHelper.cs" />
+    <Compile Include="Multi\DgnBase.cs" />
+    <Compile Include="Multi\DgnFactory.cs" />
+    <Compile Include="Multi\Dgn_CommTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecondStage\UplinkModuleInterchange上行模块互换性能影响试验.cs" />
+    <Compile Include="VerifyControl\BasicError.cs" />
+    <Compile Include="VerifyControl\BasicErrorByMeter误差自监测准确度.cs" />
+    <Compile Include="VerifyControl\BasicErrorByMyself误差自监测.cs" />
+    <Compile Include="VerifyControl\BasicErrorByV电压改变基本误差.cs" />
+    <Compile Include="VerifyControl\CarrierVerify.cs" />
+    <Compile Include="VerifyControl\ClockIndicationError时钟示值误差.cs" />
+    <Compile Include="VerifyControl\ConnProtocol.cs" />
+    <Compile Include="VerifyControl\ConstantVerify电能计量.cs" />
+    <Compile Include="VerifyControl\Creep.cs" />
+    <Compile Include="VerifyControl\HarmonicConstantVerify谐波计量.cs" />
+    <Compile Include="VerifyControl\IndicateCombinateError -电能示值的组合误差.cs" />
+    <Compile Include="VerifyControl\InfluenceVoltageRange电压范围试验.cs" />
+    <Compile Include="VerifyControl\LoadCurrentChangesRapidly负载电流快速变化.cs" />
+    <Compile Include="VerifyControl\LoadCurrentUpAndDown.cs" />
+    <Compile Include="VerifyControl\ErrorVarietyErr.cs" />
+    <Compile Include="VerifyControl\ErrorAccord.cs" />
+    <Compile Include="VerifyControl\InitialInherentError初始固有误差试验.cs" />
+    <Compile Include="VerifyControl\LoadRecordVerify.cs" />
+    <Compile Include="VerifyControl\LoadVoltageChangesRapidly交流电压暂降和短时中断.cs" />
+    <Compile Include="VerifyControl\MeasurementAndMonitoringError测量与监测误差.cs" />
+    <Compile Include="VerifyControl\MeasurementRepeatability -测量重复性试验.cs" />
+    <Compile Include="VerifyControl\PowerConsume.cs" />
+    <Compile Include="VerifyControl\PreHeat.cs" />
+    <Compile Include="VerifyControl\Starts.cs" />
+    <Compile Include="VerifyControl\VerifyBase.cs" />
+    <Compile Include="VerifyService\VerifyFactory.cs" />
+    <Compile Include="VerifyService\VerifyProcess.cs" />
+    <Compile Include="Warn\AlarmBasicFun报警基础功能.cs" />
+    <Compile Include="Warn\EL_WarnSetG报警配置.cs" />
+    <Compile Include="Warn\ManagerExceptionJ（计）管理单元异常.cs" />
+    <EmbeddedResource Include="Form_Ariticial.resx">
+      <DependentUpon>Form_Ariticial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <Compile Include="VerifyFactory.cs" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CLDC_Comm\CLDC_Comm.csproj">
+      <Project>{e560abe8-cb10-4c34-be57-658019cd68de}</Project>
+      <Name>CLDC_Comm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_DataCore\CLDC_DataCore.csproj">
+      <Project>{20d2784f-db83-45aa-b9f0-41d0bc951426}</Project>
+      <Name>CLDC_DataCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_DeviceDriver\CLDC_DeviceDriver.csproj">
+      <Project>{25215A48-58C0-4511-9AEE-3C4A2476D139}</Project>
+      <Name>CLDC_DeviceDriver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_Encryption\CLDC_Encryption.csproj">
+      <Project>{8FA9587E-8EBB-4A30-846E-640C9C028D3F}</Project>
+      <Name>CLDC_Encryption</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_MeterProtocol\CLDC_MeterProtocol.csproj">
+      <Project>{5F14E334-1249-4CAA-A83A-78A40E7BDD19}</Project>
+      <Name>CLDC_MeterProtocol</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_SafeFileProtocol\CLDC_SafeFileProtocol.csproj">
+      <Project>{6db189d0-10d1-443d-a4b1-71f5707af784}</Project>
+      <Name>CLDC_SafeFileProtocol</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

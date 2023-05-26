@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{241E1E15-77B6-46EE-A67C-A4DFDF68F18D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CLDC.Platform.ViewModel</RootNamespace>
+    <AssemblyName>CLDC.Platform.ViewModel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Resouce\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Presentation" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\AsyncObservableCollection.cs" />
+    <Compile Include="Model\BasicCommand.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Schema\SchemaViewModel.cs" />
+    <Compile Include="Schema\CheckCategoryViewModel.cs" />
+    <Compile Include="Schema\SchemasViewModel.cs" />
+    <Compile Include="Schema\CheckItemViewModel.cs" />
+    <Compile Include="Schema\CheckParaViewModel.cs" />
+    <Compile Include="ViewModelBase.cs" />
+    <Compile Include="DynamicViewModel.cs" />
+    <Compile Include="EquipmentViewModel.cs" />
+    <Compile Include="EnumCodeViewModel.cs" />
+    <Compile Include="MeterViewModel.cs" />
+    <Compile Include="DataBaseDisplayViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CLDC.Platform.BLL\CLDC.Platform.BLL.csproj">
+      <Project>{c294ccc5-ee72-456d-989a-be87e5f64027}</Project>
+      <Name>CLDC.Platform.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC.Platform.DAL\CLDC.Platform.DAL.csproj">
+      <Project>{eec14006-8ceb-4d76-9598-636ba42bc5ec}</Project>
+      <Name>CLDC.Platform.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC.Platform.Utility\CLDC.Platform.Utility.csproj">
+      <Project>{09f259be-3a5a-4065-9991-6fac32d568b6}</Project>
+      <Name>CLDC.Platform.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

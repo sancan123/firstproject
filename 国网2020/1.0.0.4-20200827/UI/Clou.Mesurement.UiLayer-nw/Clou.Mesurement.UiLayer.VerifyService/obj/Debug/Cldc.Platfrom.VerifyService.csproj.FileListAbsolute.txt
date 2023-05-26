@@ -1,0 +1,5 @@
+E:\MyProject\新检定平台\Platform\Cldc.Platfrom.VerifyService\obj\Debug\Cldc.Platfrom.VerifyService.csprojResolveAssemblyReference.cache
+E:\MyProject\新检定平台\Platform\Cldc.Platfrom.VerifyService\bin\Debug\Cldc.Platfrom.VerifyService.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platfrom.VerifyService\bin\Debug\Cldc.Platfrom.VerifyService.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platfrom.VerifyService\obj\Debug\Cldc.Platfrom.VerifyService.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platfrom.VerifyService\obj\Debug\Cldc.Platfrom.VerifyService.pdb

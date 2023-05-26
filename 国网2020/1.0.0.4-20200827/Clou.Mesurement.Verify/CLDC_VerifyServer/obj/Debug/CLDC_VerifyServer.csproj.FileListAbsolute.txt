@@ -1,0 +1,17 @@
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\CLDC_VerifyServer.exe
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\CLDC_VerifyServer.pdb
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\CLDC_Interfaces.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\CLDC_Interfaces.pdb
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\obj\Debug\CLDC_VerifyServer.csprojResolveAssemblyReference.cache
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\obj\Debug\CLDC_VerifyServer.exe
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\obj\Debug\CLDC_VerifyServer.pdb
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\AppConfigs\log4net.config
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\CLDC_Comm.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\CLDC_DataCore.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\Interop.SpeechLib.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\log4net.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\Interop.ADOX.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\Interop.JRO.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\CLDC_Comm.pdb
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\CLDC_Comm.xml
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyServer\bin\Debug\CLDC_DataCore.pdb

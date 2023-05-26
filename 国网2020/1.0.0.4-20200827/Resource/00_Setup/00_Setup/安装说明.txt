@@ -1,0 +1,2 @@
+1、没有安装过Microsoft .Net Framework 4.0 的电脑。请首先安装“vdotNetFx40_Full_x86_x64.exe”；
+2、运行“sepri_fk_C_Full_beta.exe”。

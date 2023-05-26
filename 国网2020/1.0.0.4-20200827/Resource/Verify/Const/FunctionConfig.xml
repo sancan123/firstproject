@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FunctionConfig><R ID="001" Name="电能计量功能" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="002" Name="广播校时功能" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="003" Name="显示功能" OutPramerter="1|1|1|Imax|1.0" />
+<R ID="004" Name="费率时段功能" OutPramerter="1|1|1|Imax|1.0" />
+<R ID="005" Name="脉冲输出功能" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="006" Name="最大需量功能" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="007" Name="停电抄表功能" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="008" Name="电源供电方式" OutPramerter="1|1|1|0Ib|1.0" />
+  <R ID="009" Name="过电压试验" OutPramerter="1|1|1|0Ib|1.0" /> 
+
+</FunctionConfig>

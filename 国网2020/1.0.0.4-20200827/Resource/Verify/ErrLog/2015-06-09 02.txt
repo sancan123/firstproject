@@ -1,0 +1,22 @@
+
+2015-06-09 02:36:00:源数组长度不足。请检查 srcIndex 和长度以及数组的下限。
+       在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   在 System.Collections.Generic.Queue`1.SetCapacity(Int32 capacity)
+   在 System.Collections.Generic.Queue`1.Enqueue(T item)
+   在 CLDC_DataCore.MessageController.AddMonitorMessage(EnumMonitorType monitorType, String text) 位置 e:\MeterPlatform\Test4.0.0.x\CL3000S-H\Clou.Mesurement.Verify\CLDC_DataCore\MessageController.cs:行号 48
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.ConvertStatus(stError[] stStatus, Int32 type) 位置 e:\MeterPlatform\Test4.0.0.x\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 1362
+    
+2015-06-09 02:54:15:源数组长度不足。请检查 srcIndex 和长度以及数组的下限。
+       在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   在 System.Collections.Generic.Queue`1.SetCapacity(Int32 capacity)
+   在 System.Collections.Generic.Queue`1.Enqueue(T item)
+   在 CLDC_DataCore.MessageController.AddMonitorMessage(EnumMonitorType monitorType, String text) 位置 e:\MeterPlatform\Test4.0.0.x\CL3000S-H\Clou.Mesurement.Verify\CLDC_DataCore\MessageController.cs:行号 48
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.ConvertStatus(stError[] stStatus, Int32 type)
+    
+2015-06-09 02:55:24:源数组长度不足。请检查 srcIndex 和长度以及数组的下限。
+       在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   在 System.Collections.Generic.Queue`1.SetCapacity(Int32 capacity)
+   在 System.Collections.Generic.Queue`1.Enqueue(T item)
+   在 CLDC_DataCore.MessageController.AddMonitorMessage(EnumMonitorType monitorType, String text) 位置 e:\MeterPlatform\Test4.0.0.x\CL3000S-H\Clou.Mesurement.Verify\CLDC_DataCore\MessageController.cs:行号 48
+   在 CLDC_VerifyServer.ClientMain.UpdatePowerInfo(StPower tagPower) 位置 e:\MeterPlatform\Test4.0.0.x\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 464
+    

@@ -1,0 +1,897 @@
+﻿<basemodel:DockControlDisposable xmlns:Controls="clr-namespace:Mesurement.UiLayer.WPF.Controls"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:basemodel="clr-namespace:Mesurement.UiLayer.WPF.Model"
+             xmlns:ViewModel="clr-namespace:Mesurement.UiLayer.ViewModel.Device;assembly=Mesurement.UiLayer.ViewModel"
+                                 Foreground="{DynamicResource 字体颜色标准}"
+             xmlns:Converter="clr-namespace:Mesurement.UiLayer.WPF.Converter" 
+                                 x:Class="Mesurement.UiLayer.WPF.View.ViewDevice"
+             mc:Ignorable="d" 
+             d:DesignHeight="600"  
+                                 d:DesignWidth="1000">
+    <basemodel:DockControlDisposable.Resources>
+        <Converter:NotBoolConverter x:Key="NotBoolConverter"/>
+        <Style TargetType="{x:Type Controls:MeterContainer}">
+            <Style.Resources>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                                <Viewbox Margin="3">
+                                    <Border BorderThickness="1"
+                                            Width="100"
+                                            Height="70"
+                                            BorderBrush="DarkGray">
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="20"/>
+                                                <RowDefinition/>
+                                                <RowDefinition/>
+                                                <RowDefinition/>
+                                            </Grid.RowDefinitions>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="20"/>
+                                                    <ColumnDefinition/>
+                                                </Grid.ColumnDefinitions>
+                                                <CheckBox VerticalAlignment="Center"
+                                                          IsChecked="{Binding IsSelected}"
+                          HorizontalAlignment="Center"/>
+                                                <Border BorderBrush="White" 
+                        Background="{DynamicResource 屏幕颜色}"
+                        Margin="1"
+                        Grid.Column="1"
+                        BorderThickness="1">
+                                                    <TextBlock  VerticalAlignment="Center"
+                                                                Text="{Binding TextScreen}"
+                                                                Foreground="White"
+                                                                FontWeight="Bold"
+                           Grid.Column="1"
+                           HorizontalAlignment="Center"
+                           Margin="1"/>
+                                                </Border>
+                                            </Grid>
+                                            <Border BorderBrush="Gray"
+                                                    x:Name="borderTop"
+                                                    Background="#FF303030"
+                    BorderThickness="1"
+                    Grid.Row="1"
+                    Margin="5,4"/>
+                                            <Border BorderBrush="Gray"
+                                                    x:Name="borderHaveMeter"
+                                                    Background="#FF303030"
+                    BorderThickness="1"
+                    Grid.Row="2"
+                    Margin="5,4"/>
+                                            <Border BorderBrush="Gray"
+                                                    Background="#FF303030"
+                                                    x:Name="borderBottom"
+                    BorderThickness="1"
+                    Grid.Row="3"
+                    Margin="5,4"/>
+                                        </Grid>
+                                    </Border>
+                                </Viewbox>
+                                <ControlTemplate.Triggers>
+                                    <DataTrigger Binding="{Binding HaveMeter}"
+                                                 Value="true">
+                                        <Setter TargetName="borderHaveMeter" 
+                                                Property="Background" Value="Green"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding HaveMeter}"
+                                                 Value="false">
+                                        <Setter TargetName="borderHaveMeter" 
+                                                Property="Background" Value="#FF303030"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsTop}"
+                                                 Value="true">
+                                        <Setter TargetName="borderTop" 
+                                                Property="Background" Value="Green"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsTop}"
+                                                 Value="false">
+                                        <Setter TargetName="borderTop" 
+                                                Property="Background" Value="#FF303030"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsBottom}"
+                                                 Value="true">
+                                        <Setter TargetName="borderBottom" 
+                                                Property="Background" Value="Green"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsBottom}"
+                                                 Value="false">
+                                        <Setter TargetName="borderBottom" 
+                                                Property="Background" Value="#FF303030"/>
+                                    </DataTrigger>
+                                    <MultiDataTrigger>
+                                        <MultiDataTrigger.Conditions>
+                                            <Condition Binding="{Binding IsTop}" Value="true"/>
+                                            <Condition Binding="{Binding IsBottom}" Value="true"/>
+                                        </MultiDataTrigger.Conditions>
+                                        <Setter TargetName="borderTop" 
+                                    		Property="Background" Value="Red"/>
+                                        <Setter TargetName="borderBottom" 
+                                    		Property="Background" Value="Red"/>
+                                    </MultiDataTrigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Style.Resources>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Controls:MeterContainer}">
+                        <Controls:UniformWrapPanel 
+                            ColumnCount="{TemplateBinding ColumnCount}"
+                            IsItemsHost="True"
+                            Orientation="Horizontal"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </basemodel:DockControlDisposable.Resources>
+    <Grid Background="{DynamicResource 窗口背景色}">
+        <!--<Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>-->
+        <TabControl 
+                Background="{DynamicResource 窗口背景色}"
+			IsEnabled="{Binding IsBusy, Converter={StaticResource NotBoolConverter}}">
+            <TabItem 
+                Foreground="{DynamicResource 字体颜色标准}"
+                Header="{DynamicResource 基本控制}">
+                <WrapPanel  Orientation="Vertical" 
+					Background="{DynamicResource 窗口背景色}" >
+                    <StackPanel Orientation="Horizontal">
+                        <Border BorderThickness="1"
+							HorizontalAlignment="Left"
+							Margin="3,3,3,0"
+							BorderBrush="DarkGray">
+                            <StackPanel>
+                                <Button Content="{DynamicResource 读写卡器供电}" Margin="2"
+									Height="22" Width="90"
+									VerticalAlignment="Center"
+                                    CommandParameter="RemoteControlOnOrOff|true"
+								    Command="{Binding LocalCommand}"/>
+                                <Button Content="{DynamicResource 读写卡器停电}" Margin="2"
+									Height="22" Width="90"
+									VerticalAlignment="Center"
+                                    CommandParameter="RemoteControlOnOrOff|false"
+								    Command="{Binding LocalCommand}"/>
+                                
+                            </StackPanel>
+
+                        </Border>
+                        <Border BorderThickness="0"
+						Width="300"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                            <WrapPanel>
+                                <Label Foreground="Red" >说明：多表位操作。请在参数录入界面勾选表位。</Label>
+                            </WrapPanel>
+                        </Border>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Border BorderThickness="1"
+							HorizontalAlignment="Left"
+							Margin="3,3,3,0"
+							BorderBrush="DarkGray"/>
+                        <Border BorderThickness="1"
+							HorizontalAlignment="Left"
+							Margin="3,3,0,0"
+							BorderBrush="DarkGray"/>
+                    </StackPanel>
+                </WrapPanel>
+            </TabItem>
+            <!--<TabItem
+                Foreground="{DynamicResource 字体颜色标准}"
+                Header="{DynamicResource 电源控制}">
+                <Controls:ControlPower/>
+            </TabItem>-->
+            <TabItem Header="{DynamicResource 加密机}"
+                Foreground="{DynamicResource 字体颜色标准}">
+	            <Controls:ControlEcription/>
+	        </TabItem>
+            <TabItem 
+                Foreground="{DynamicResource 字体颜色标准}"
+                Header="{DynamicResource 南网统一接口}" Height="26" VerticalAlignment="Top">
+                <WrapPanel  Orientation="Vertical" 
+					Background="{DynamicResource 窗口背景色}" >
+                    <Border BorderThickness="1"
+						Width="412"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel Margin="0,0,195,0">
+                            <Button Content="{DynamicResource 检定装置参数配置}"
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="ShowDriverConfig"
+								VerticalAlignment="Center"/>
+                            <Button Content="{DynamicResource 读写卡器参数配置}" 
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="ShowCardReaderConfig"
+								VerticalAlignment="Center" />
+                        </WrapPanel>
+                    </Border>
+                </WrapPanel>
+            </TabItem>
+            <TabItem 
+                Foreground="{DynamicResource 字体颜色标准}"
+                Header="{DynamicResource 一类参数操作}" Margin="-2,-2,2,-1" Height="26">
+                <WrapPanel  Orientation="Vertical" 
+					Background="{DynamicResource 窗口背景色}" >
+                    <Border BorderThickness="1"
+						Width="419"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel Margin="0,0,9,0">
+                            <CheckBox Name="chk_BjMoney1" IsChecked="True" ></CheckBox>
+                            <Label >报 警 金 额 1</Label>
+                            <TextBox Width="99" 
+                                     LostFocus="CheckValue"
+                                     Name="AlertingMoney1"
+                                     Text="0"
+                                     TextAlignment="Center"
+                                     VerticalContentAlignment="Center"/>
+                            <Button Content="{DynamicResource 读}"
+								Margin="5"
+								Height="22" Width="54"
+								VerticalAlignment="Center"
+								CommandParameter="ReadAlertingMoney1"
+								Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}"
+                                    Click="BtnSetAlertingMoney1_Click"
+								Margin="2"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                            <Label Foreground="Red">说明：如报警金额为10元，请填写10；如金额为10.51元，请填写10.51</Label>
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1"
+						Width="419"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel>
+                            <CheckBox Name="chk_BjMoney2" IsChecked="True" ></CheckBox>
+                            <Label >报 警 金 额 2 </Label>
+                            <TextBox Width="97"
+                                     LostFocus="CheckValue"
+                                     Name="AlertingMoney2"
+                                     Text="0" 
+                                     TextAlignment="Center"
+                                     VerticalContentAlignment="Center"/>
+                            <Button Content="{DynamicResource 读}"
+								Margin="5"
+								Height="22" Width="50"
+								VerticalAlignment="Center"
+								CommandParameter="ReadAlertingMoney2"
+								Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}" 
+                                Click="BtnSetAlertingMoney2_Click"
+								Margin="2"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                            <Label Foreground="Red">说明：如报警金额为10元，请填写10；如金额为10.51元，请填写10.51</Label>
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1"
+						Width="419"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel>
+                            <CheckBox Name="chk_CurrentScale" IsChecked="True" ></CheckBox>
+                            <Label >电流互感器变比</Label>
+                            <TextBox Width="82"
+                                     LostFocus="CheckValue6"
+                                     Name="CurrentScale"
+                                     Text="1"
+                                     TextAlignment="Center"
+                                     VerticalContentAlignment="Center"/>
+                            <Button Content="{DynamicResource 读}"
+								Margin="5"
+								Height="22" Width="50"
+								VerticalAlignment="Center"
+								CommandParameter="ReadCurrentScale"
+								Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}"
+                                Click="SetCurrentScale_Click"
+								Margin="2"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                            <Label Foreground="Red">说明：如变比值为：100/5 , 请填写20</Label>
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1"
+						Width="418"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel>
+                            <CheckBox Name="chk_VoltageScale" IsChecked="True" ></CheckBox>
+                            <Label >电压互感器变比</Label>
+                            <TextBox Width="80"
+                                     LostFocus="CheckValue6"
+                                     Name="VoltageScale"
+                                     Text="1"
+                                     TextAlignment="Center"
+                                     VerticalContentAlignment="Center"/>
+                            <Button Content="{DynamicResource 读}"
+								Margin="5"
+								Height="22" Width="50"
+								VerticalAlignment="Center"
+								CommandParameter="ReadVoltageScale"
+								Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}" 
+                                Click="SetVoltageScale_Click"
+								Margin="2"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                            <Label Foreground="Red">说明：如变比值为：10000/100 , 请填写100</Label>
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1"
+						Width="418"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel>
+                            <CheckBox Name="chk_IdentityTime" IsChecked="True"></CheckBox>
+                            <Label >身份认证时效性</Label>
+                            <TextBox Width="79"
+                                     LostFocus="CheckValue4"
+                                     Name="IdentityTime"
+                                     Text="30"
+                                     TextAlignment="Center"
+                                     VerticalContentAlignment="Center"/>
+                            <Button Content="{DynamicResource 读}"
+								Margin="5"
+								Height="22" Width="50"
+								VerticalAlignment="Center"
+								CommandParameter="ReadIdentityTime"
+								Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}"
+                                Click="SetIdentityTime_Click"
+								Margin="2"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                            <Label Foreground="Red">说明：单位为分钟，如30分钟，请填写30，最长不多于9999分钟</Label>
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1"
+						Width="418"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel>
+                            <Label >钱包初始化金额</Label>
+                            <TextBox Width="78"
+                                     LostFocus="CheckValue"
+                                     Name="InitPurse"
+                                     Text="50"
+                                     TextAlignment="Center"
+                                     VerticalContentAlignment="Center"/>
+                            <Button Content="{DynamicResource 写}"
+                                Click="SetInitPurse_Click"
+								Margin="5"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                            <Label Foreground="Red">说明：如初始化金额为10元，请填写10；如金额为10.51元，请填写10.51</Label>
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="0"
+						Width="300"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel>
+                            <Label Foreground="Red" >说明：多表位操作。请在参数录入界面勾选表位。</Label>
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="0"
+						Width="300"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel>
+                            <Button Content="保    存" Height="60" Margin="20" Click="SaveParameterData_Click"></Button>
+                            <Button Content="全部写入" Height="60" Margin="20" Click="AllWrite_Click"></Button>
+                            <Button Content="全部读取" Height="60" Margin="20" Click="AllReader_Click"></Button>
+                        </WrapPanel>
+                    </Border>
+                </WrapPanel>
+            </TabItem>
+            <TabItem 
+                Foreground="{DynamicResource 字体颜色标准}"
+                Header="{DynamicResource 电价文件操作}" Margin="-2,-2,0,-1" Height="26" HorizontalAlignment="Left" Width="86">
+                <WrapPanel  Orientation="Vertical"  Margin="0,-5"
+					Background="{DynamicResource 窗口背景色}" >
+                    <Border BorderThickness="1"
+						Width="133"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray" Height="346">
+                        <WrapPanel Margin="0,0,0,0">
+                            <CheckBox Name="chk_WriteFl" IsChecked="True"></CheckBox>
+                            <Label Content="备用套" Width="110" Height="40" FontSize="15"  />
+                            <Label Content="费率1" />
+                            <TextBox Width="70" 
+                                LostFocus="LostTextFocusBy8"
+                    			x:Name="Fl1"
+                    			Text="1"
+                    			TextAlignment="Left"/>
+                            <Label Content="费率2" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Fl2"
+                    			Text="2"
+                    			TextAlignment="Left"/>
+                            <Label Content="费率3" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Fl3"
+                    			Text="3"
+                    			TextAlignment="Left"/>
+                            <Label Content="费率4" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Fl4"
+                    			Text="4"
+                    			TextAlignment="Left"/>
+                            <Button Content="{DynamicResource 读}"
+								Margin="5"
+								Height="22" Width="54"
+								VerticalAlignment="Center"
+								CommandParameter="ReaderFl"
+								Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}"
+                                    Click="WriteFl_Click"
+								Margin="2"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1"
+						Width="274"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray" Height="347">
+                        <WrapPanel Margin="0,0,0,0">
+                            <CheckBox Name="chk_WriteJtb1" IsChecked="True"></CheckBox>
+                            <Label Content="备用套第1阶梯表" Width="178" FontSize="15"  />
+                            <Line Width="274" Height="5" Stroke="Black"  StrokeThickness="2" ></Line>
+                            <Label Content="阶梯值1   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz1by1"
+                    			Text="1"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值2   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz2by1"
+                    			Text="2"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值3   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz3by1"
+                    			Text="3"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值4   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz4by1"
+                    			Text="4"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值5   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz5by1"
+                    			Text="5"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值6   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz6by1"
+                    			Text="6"
+                    			TextAlignment="Left"/>
+                            <Line Width="274" Height="10" Stroke="Black"  StrokeThickness="2" ></Line>
+                            <Label Content="阶梯电价1" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj1By1"
+                    			Text="1"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价2" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj2By1"
+                    			Text="2"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价3" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj3By1"
+                    			Text="3"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价4" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj4By1"
+                    			Text="4"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价5" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj5By1"
+                    			Text="5"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价6" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj6By1"
+                    			Text="6"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价7" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj7By1"
+                    			Text="7"
+                    			TextAlignment="Left"/>
+                            <Line Width="274" Height="10" Stroke="Black"  StrokeThickness="2" ></Line>
+                            <Label Content="年第1结算日" />
+                            <TextBox Width="57" 
+                                LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr1by1"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第2结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr2by1"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第3结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr3by1"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第4结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr4by1"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第5结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr5by1"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第6结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr6by1"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Line Width="274" Height="3" Stroke="Black"  StrokeThickness="2" ></Line>
+                            <Button Content="{DynamicResource 读}"
+                            	Margin="50,-10"
+                            	Height="22" Width="50"
+                            	VerticalAlignment="Center"
+                            	CommandParameter="ReaderJtBy1"
+                            	Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}"
+                                    Click="WriteJtBy1_Click"
+								Margin="0"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1"
+						Width="296"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray" Height="348">
+                        <WrapPanel Margin="0,0,0,0">
+                            <CheckBox Name="chk_WriteJtb2" IsChecked="True"></CheckBox>
+                            <Label Content="备用套第2阶梯表" Width="178" FontSize="15"  />
+                            <Line Width="274" Height="5" Stroke="Black"  StrokeThickness="2" ></Line>
+                            <Label Content="阶梯值1   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz1by2"
+                    			Text="1"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值2   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz2by2"
+                    			Text="2"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值3   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz3by2"
+                    			Text="3"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值4   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz4by2"
+                    			Text="4"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值5   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz5by2"
+                    			Text="5"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯值6   " />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtz6by2"
+                    			Text="6"
+                    			TextAlignment="Left"/>
+                            <Line Width="274" Height="10" Stroke="Black"  StrokeThickness="2" ></Line>
+                            <Label Content="阶梯电价1" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj1By2"
+                    			Text="1"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价2" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj2By2"
+                    			Text="2"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价3" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj3By2"
+                    			Text="3"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价4" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj4By2"
+                    			Text="4"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价5" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj5By2"
+                    			Text="5"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价6" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj6By2"
+                    			Text="6"
+                    			TextAlignment="Left"/>
+                            <Label Content="阶梯电价7" />
+                            <TextBox Width="70" 
+                                     LostFocus="LostTextFocusBy8"
+                    			x:Name="Jtdj7By2"
+                    			Text="7"
+                    			TextAlignment="Left"/>
+                            <Line Width="274" Height="10" Stroke="Black"  StrokeThickness="2" ></Line>
+                            <Label Content="年第1结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr1by2"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第2结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr2by2"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第3结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr3by2"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第4结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr4by2"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第5结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr5by2"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Label Content="年第6结算日" />
+                            <TextBox Width="57" 
+                                     LostFocus="LostTextFocusBy6"
+                    			x:Name="Jsr6by2"
+                    			Text="000000"
+                    			TextAlignment="Left"/>
+                            <Line Width="274" Height="3" Stroke="Black"  StrokeThickness="2" ></Line>
+                            <Button Content="{DynamicResource 读}"
+                            	Margin="50,-10"
+                            	Height="22" Width="50"
+                            	VerticalAlignment="Center"
+                            	CommandParameter="ReaderJtBy2"
+                            	Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}"
+                                    Click="WriteJtBy2_Click"
+								Margin="0"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1" 
+                        Width="256"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray" Height="248">
+                        <WrapPanel Margin="0,0,0,0">
+                            <CheckBox Name="chk_WriteChangTime" IsChecked="True"></CheckBox>
+                            <Label Content="两套费率切换时间" />
+                            <TextBox Width="100" 
+                                     LostFocus="LostTextFocusBy10"
+                    			x:Name="ChangFlTime"
+                    			Text="1601010000"
+                    			TextAlignment="Left"/>
+                            <Button Content="{DynamicResource 读}"
+								Margin="50,10,0,0"
+								Height="22" Width="54"
+								VerticalAlignment="Center"
+								CommandParameter="ReaderChangFlTime"
+								Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}"
+                                    Click="WriteChangFlTime_Click"
+								Margin="2,10,0,0"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                            <Line Width="274" Height="10" Stroke="Black"  StrokeThickness="2" ></Line>
+                            <Label Content="两套阶梯切换时间" Margin="15,0,0,0" />
+                            <TextBox Width="100" 
+                                     LostFocus="LostTextFocusBy10"
+                    			x:Name="ChangJtTime"
+                    			Text="1601010000"
+                    			TextAlignment="Left"/>
+                            <Button Content="{DynamicResource 读}"
+								Margin="50,10,0,0"
+								Height="22" Width="54"
+								VerticalAlignment="Center"
+								CommandParameter="ReaderChangJtTime"
+								Command="{Binding LocalCommand}"/>
+                            <Button Content="{DynamicResource 写}"
+                                    Click="WriteChangJtTime_Click"
+								Margin="2,10,0,0"
+								Command="{Binding LocalCommand}"
+								Height="22" Width="50"
+								VerticalAlignment="Center" />
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1"
+						Width="256"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel>
+                            <Button Content="保    存" Height="55" Margin="30,0,0,0" Click="SavePriceData_Click"></Button>
+                            <Button Content="全部写入" Height="55" Margin="20,0,0,0" Click="AllWriteDj_Click"></Button>
+                            <Button Content="全部读取" Height="55" Margin="20" Click="AllReaderDj_Click"></Button>
+                        </WrapPanel>
+                    </Border>
+                    <Border BorderThickness="1"
+						Width="510"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray" Height="215">
+                        <WrapPanel Margin="0,0,0,0">
+                            <Label Margin="0" Foreground="Red" >说明：</Label>
+                            <Line Width="274" Height="1"  StrokeThickness="2" ></Line>
+                            <Label Margin="0" Foreground="Red" >1.费率：如为1.23元,则请填写1.23</Label>
+                            <Label Margin="0" Foreground="Red" >2.阶梯值：如为1.23kWh,则请填写1.23</Label>
+                            <Label Margin="0" Foreground="Red" >3.阶梯电价：如为123.45元,则请填写123.45</Label>
+                            <Label Margin="0" Foreground="Red" >4.结算日：格式为MMDDhh,如为1月2日3时,请填写010203</Label>
+                            <Label Margin="0" Foreground="Red" >5.两套费率切换时间：格式为YYMMDDhhmm,如为2016年1月2日3时4分,请填写1601020304</Label>
+                            <Label Margin="0" Foreground="Red" >6.两套阶梯切换时间：格式为YYMMDDhhmm,如为2016年1月2日3时4分,请填写1601020304</Label>
+                            <Label Margin="0" Foreground="Red" >7.多表位操作。请在参数录入界面勾选表位。</Label>
+                        </WrapPanel>
+                    </Border>
+                </WrapPanel>
+            </TabItem>
+            <TabItem 
+                Foreground="{DynamicResource 字体颜色标准}"
+                Header="{DynamicResource 快捷命令}" Height="26" VerticalAlignment="Top">
+                <WrapPanel  Orientation="Vertical" 
+					Background="{DynamicResource 窗口背景色}" >
+                    <Border BorderThickness="1"
+						Width="412"
+						HorizontalAlignment="Left"
+						Margin="3,3,0,0"
+						BorderBrush="DarkGray">
+                        <WrapPanel Margin="0,0,195,0">
+                            <Button Content="{DynamicResource 对时}"
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="Timing"
+								VerticalAlignment="Center"/>
+                            <Button Content="{DynamicResource 直接拉闸}" 
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="BreakRelay"
+								VerticalAlignment="Center" />
+                            <Button Content="{DynamicResource 直接合闸}" 
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="DirectRemoteControl"
+								VerticalAlignment="Center" />
+                            <Button Content="{DynamicResource 合闸允许}" 
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="CloseRelay"
+								VerticalAlignment="Center" />
+                            <Button Content="{DynamicResource 保电}" 
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="EnPower"
+								VerticalAlignment="Center" />
+                            <Button Content="{DynamicResource 保电解除}" 
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="RelieveEnPower"
+								VerticalAlignment="Center" />
+                            <Button Content="{DynamicResource 切换到本地模式}" 
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="ChangeLocalMode"
+								VerticalAlignment="Center" />
+                            <Button Content="{DynamicResource 切换到远程模式}" 
+								Margin="2"
+								Height="22" Width="100"
+                                Command="{Binding LocalCommand}"
+                                CommandParameter="ChangeRemoteModel"
+								VerticalAlignment="Center" />
+                        </WrapPanel>
+                    </Border>
+                </WrapPanel>
+            </TabItem>
+        </TabControl>
+        <GridSplitter Height="3" 
+			VerticalAlignment="Bottom"
+			HorizontalAlignment="Stretch"
+			Margin="5,0" Background="{DynamicResource 分隔条颜色}"/>
+    </Grid>
+</basemodel:DockControlDisposable>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Mesurement.UiLayer.DataManager.WindowAbout"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+        Padding="10"
+        Width="480"
+        Height="330"
+        ShowInTaskbar="False"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource BrushWindowColor}"
+                                 FontSize="24">
+        <StackPanel Width="450" Height="300"
+                    Margin="20">
+        <Image HorizontalAlignment="Left"
+               Margin="5"
+            Source="images/logo.png"
+               Width="120"/>
+        <TextBlock Margin="10,40,10,10" Name="textBlockProductName"/>
+        <TextBlock Margin="10" Name="textBlockVersion"/>
+        <TextBlock Margin="10" Name="textBlockCopyright"/>
+    </StackPanel>
+</Window>

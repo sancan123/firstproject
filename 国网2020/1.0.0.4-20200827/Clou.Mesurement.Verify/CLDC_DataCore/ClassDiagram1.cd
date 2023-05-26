@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CLDC_DataCore.MessageController">
+    <Position X="2" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAAAAIACQAiAAAABAAAAAABABAACAABAAAAAAAAAA=</HashCode>
+      <FileName>MessageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DataCore.MessageUnit">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAEAAAAAAAAAAAAAAAAAAABAAAACAAAAAA=</HashCode>
+      <FileName>MessageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DataCore.VerifyData">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>MessageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

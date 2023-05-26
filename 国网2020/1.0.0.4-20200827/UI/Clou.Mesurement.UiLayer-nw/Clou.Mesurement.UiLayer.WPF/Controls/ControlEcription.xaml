@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="Mesurement.UiLayer.WPF.Controls.ControlEcription"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Local="clr-namespace:Mesurement.UiLayer.WPF.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <Local:EcriptionViewModel x:Key="EcriptionViewModel"/>
+    </UserControl.Resources>
+    <Grid DataContext="{StaticResource EcriptionViewModel}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="15,15,5,5"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top">
+            <Label x:Name="lab_Type" Content="Type" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txt_Type" Text="南网加密机" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+            <Label x:Name="lab_IP" Content="IP" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txt_IP" Text="192.168.19.99" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+            <Label x:Name="lab_Port" Content="Port" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <TextBox x:Name="txt_Port" Text="8018" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        </StackPanel>
+        <ScrollViewer Grid.Column="1"
+                   HorizontalAlignment="Left"
+                  Width="700"
+                      VerticalScrollBarVisibility="Auto"
+            HorizontalScrollBarVisibility="Disabled">
+            <WrapPanel
+    		ItemWidth="130"
+    		ItemHeight="35">
+                <Button x:Name="btn_SouthLink" Content="打开加密机" CommandParameter="SouthLink" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthCloseDevice" Content="关闭加密机" CommandParameter="SouthCloseDevice" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthIdentityAuthentication" Content="身份认证" CommandParameter="SouthIdentityAuthentication" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthUserControl" Content="远程控制" CommandParameter="SouthUserControl" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthParameterUpdate" Content="参数信息更新" CommandParameter="SouthParameterUpdate" Command="{Binding LocalCommand}" Margin="15,5" />
+                <!--<Button x:Name="btn_SouthPrice1Update" Content="当前套电价" CommandParameter="SouthPrice1Update" Command="{Binding LocalCommand}" Margin="15,5" />-->
+                <Button x:Name="btn_SouthPrice2Update" Content="备用套电价" CommandParameter="SouthPrice2Update" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthParameterElseUpdate" Content="二类参数" CommandParameter="SouthParameterElseUpdate" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthIncreasePurse" Content="远程开户充值" CommandParameter="SouthIncreasePurse" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthInitPurse" Content="钱包初始化" CommandParameter="SouthInitPurse" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthKeyUpdateV2" Content="远程密钥更新" CommandParameter="SouthKeyUpdateV2" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthDataClear1" Content="清零" CommandParameter="SouthDataClear1" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthInfraredRand" Content="红外认证查询" CommandParameter="SouthInfraredRand" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthInfraredAuth" Content="红外认证" CommandParameter="SouthInfraredAuth" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthMacCheck" Content="数据回抄" CommandParameter="SouthMacCheck" Command="{Binding LocalCommand}" Margin="15,5" />
+                <!--<Button x:Name="btn_SouthMacWrite" Content="记录信息文件1更新" CommandParameter="SouthMacWrite" Command="{Binding LocalCommand}" Margin="15,5" />-->
+                <!--<Button x:Name="btn_SouthEncMacWrite" Content="记录信息文件2更新" CommandParameter="SouthEncMacWrite" Command="{Binding LocalCommand}" Margin="15,5" />-->
+                <Button x:Name="btn_SouthEncForCompare" Content="程序比对数据计算" CommandParameter="SouthEncForCompare" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthDecreasePurse" Content="钱包退费计算" CommandParameter="SouthDecreasePurse" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_SouthSwitchChargeMode" Content="费控模式切换" CommandParameter="SouthSwitchChargeMode" Command="{Binding LocalCommand}" Margin="15,5" />
+
+                <Button x:Name="btn_WINAPI_OpenDevice" Content="打开读卡器" CommandParameter="WINAPI_OpenDevice" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_WINAPI_CloseDevice" Content="关闭读卡器" CommandParameter="WINAPI_CloseDevice" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_WINAPI_ReadParamPresetCard" Content="读参数预置卡" CommandParameter="WINAPI_ReadParamPresetCard" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_WINAPI_MakeParamPresetCard" Content="写参数预置卡" CommandParameter="WINAPI_MakeParamPresetCard" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_WINAPI_ReadUserCard" Content="读用户卡数据" CommandParameter="WINAPI_ReadUserCard" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_WINAPI_MakeUserCard" Content="写用户卡" CommandParameter="WINAPI_MakeUserCard" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_WINAPI_ReadUserCardNum" Content="读用户卡卡号" CommandParameter="WINAPI_ReadUserCardNum" Command="{Binding LocalCommand}" Margin="15,5" />
+                <Button x:Name="btn_WINAPI_ReadParamPresetCardNum" Content="读参数卡卡号" CommandParameter="WINAPI_ReadParamPresetCardNum" Command="{Binding LocalCommand}" Margin="15,5" />
+
+                <Label Foreground="Red" Margin="30,5,-415,5" Content="说明：单表位操作。请在参数录入界面勾选表位,如多选则仅对排序第一的表位有效。" Width="628" />
+
+            </WrapPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

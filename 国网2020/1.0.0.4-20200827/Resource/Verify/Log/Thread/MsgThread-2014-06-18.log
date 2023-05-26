@@ -1,0 +1,441 @@
+
+2014/6/18 12:22:36
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:22:38
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:22:39
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:22:40
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:22:40
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:22:41
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:22:41
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:22:53
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:14
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:15
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:16
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:16
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:17
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:17
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:27
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:39
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:49
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:51
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:52
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:53
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:53
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:54
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:24:54
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:25:06
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:27:33
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:27:33
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:27:34
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:27:34
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:27:35
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:27:35
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:27:47
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:27:48
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:28
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:30
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:31
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:31
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:31
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:31
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:31
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:35
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:35
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:35
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:30:36
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212
+2014/6/18 12:31:03
+CLDC_DataCore.VerifyMsgControl.DoWork
+描述:格式字符串只能是“G”、“g”、“X”、“x”、“F”、“f”、“D”或“d”。
+   在 System.Enum.ToString(String format)
+   在 System.Enum.ToString(String format, IFormatProvider provider)
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0)
+   在 CLDC_StartUpDispatcher.ClientMain2.ShowMsg(Object sourceAdpater, Object MessageArgs) 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_StartUpDispatcher\ClientMain2.cs:行号 1740
+   在 CLDC_DataCore.VerifyMsgControl.DoWork() 位置 E:\SVN\CL3000S-H\CL3000S-H(6)\CL3000S-H\CLDC_DataCore\VerifyMsgControl.cs:行号 212

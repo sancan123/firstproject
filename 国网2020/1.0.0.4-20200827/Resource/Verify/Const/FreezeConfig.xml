@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FreezeConfig>
+<R ID="001" Name="定时冻结" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="002" Name="瞬时冻结" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="003" Name="日冻结" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="004" Name="约定冻结" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="005" Name="整点冻结" OutPramerter="1|1|1|0Ib|1.0" />
+<R ID="006" Name="需量定时冻结" OutPramerter="1|1|1|0Ib|1.0" />
+</FreezeConfig>

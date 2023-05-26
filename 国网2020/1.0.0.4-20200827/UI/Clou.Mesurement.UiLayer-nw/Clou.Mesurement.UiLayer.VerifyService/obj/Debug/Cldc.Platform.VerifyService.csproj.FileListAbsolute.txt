@@ -1,0 +1,13 @@
+E:\MyProject\新检定平台\Platform\Cldc.Platfrom.VerifyService\bin\Debug\Cldc.Platform.VerifyService.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platfrom.VerifyService\bin\Debug\Cldc.Platform.VerifyService.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platfrom.VerifyService\obj\Debug\Cldc.Platform.VerifyService.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platfrom.VerifyService\obj\Debug\Cldc.Platform.VerifyService.pdb
+E:\新检定平台\Platform\Cldc.Platform.VerifyService\bin\Debug\Cldc.Platform.VerifyService.dll
+E:\新检定平台\Platform\Cldc.Platform.VerifyService\bin\Debug\Cldc.Platform.VerifyService.pdb
+E:\新检定平台\Platform\Cldc.Platform.VerifyService\obj\Debug\Cldc.Platform.VerifyService.dll
+E:\新检定平台\Platform\Cldc.Platform.VerifyService\obj\Debug\Cldc.Platform.VerifyService.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platform.VerifyService\bin\Debug\Cldc.Platform.VerifyService.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platform.VerifyService\bin\Debug\Cldc.Platform.VerifyService.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platform.VerifyService\obj\Debug\Cldc.Platform.VerifyService.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platform.VerifyService\obj\Debug\Cldc.Platform.VerifyService.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platform.VerifyService\obj\Debug\Cldc.Platform.VerifyService.csprojResolveAssemblyReference.cache

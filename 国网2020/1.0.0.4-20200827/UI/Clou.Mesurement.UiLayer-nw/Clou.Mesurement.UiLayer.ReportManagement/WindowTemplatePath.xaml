@@ -1,0 +1,39 @@
+﻿<Window x:Class="Mesurement.UiLayer.DataManager.WindowTemplatePath"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mesurement.UiLayer.DataManager"
+        mc:Ignorable="d"
+        ShowInTaskbar="False"
+        Background="{DynamicResource BrushWindowColor}"
+        Title="设置报表模板路径" Height="300" 
+        FontSize="24"
+        Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+        <TextBlock Text="报表模板路径:"
+                   Margin="30,30,10,10"/>
+        <TextBox MaxWidth="350"
+                 Name="textBoxPath"
+                 Height="150"
+                   TextWrapping="WrapWithOverflow"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1"
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+            <Button Content="浏览"
+                    Click="Click_Browse"
+                    Width="60"
+                    Margin="30,0,30,20"/>
+            <Button Content="关闭"
+                    Click="Click_Cancel"
+                    Width="60"
+                    Margin="30,0,30,20"/>
+        </StackPanel>
+    </Grid>
+</Window>

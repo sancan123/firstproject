@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Setting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PowerPort>1</PowerPort>
+  <Items>
+    <SettingItem>
+      <Index>1</Index>
+      <ComNo>25</ComNo>
+      <CanUse>true</CanUse>
+    </SettingItem>
+    <SettingItem>
+      <Index>2</Index>
+      <ComNo>2</ComNo>
+      <CanUse>false</CanUse>
+    </SettingItem>
+    <SettingItem>
+      <Index>3</Index>
+      <ComNo>3</ComNo>
+      <CanUse>false</CanUse>
+    </SettingItem>
+    <SettingItem>
+      <Index>4</Index>
+      <ComNo>4</ComNo>
+      <CanUse>false</CanUse>
+    </SettingItem>
+  </Items>
+</Setting>

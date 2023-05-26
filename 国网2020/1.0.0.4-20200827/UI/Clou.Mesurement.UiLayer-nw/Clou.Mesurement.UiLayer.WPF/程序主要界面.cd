@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mesurement.UiLayer.WPF.Model.DockControlDisposable">
+    <Position X="6.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Model\DockControlDisposable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Mesurement.UiLayer.WPF.Model.DockWindowDisposable">
+    <Position X="8.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABgAAAAAgAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Model\DockWindowDisposable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesurement.UiLayer.WPF.Model.ModelDockStyle">
+    <Position X="3.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQQAAAACAgQAAgAAAAIAAAAAAgAgCgAiAAAAAAAAA=</HashCode>
+      <FileName>Model\ModelDockStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

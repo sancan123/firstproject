@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mesurement.UiLayer.VerifyService.WcfServiceHost">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAMBAAAAAAAAAAAAA=</HashCode>
+      <FileName>WcfServiceHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesurement.UiLayer.VerifyService.WcfDynamic.DynamicProxyFactory">
+    <Position X="3.25" Y="0.5" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BEIogAACAEDEaABEAESAAAAQASUNAQAAIFCIAGBcCFA=</HashCode>
+      <FileName>WcfDynamic\DynamicProxyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesurement.UiLayer.VerifyService.WcfDynamic.DynamicObject">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAgAgAAAIAAAgAAAAAACAAEAAAAAAIAAAACAAIA=</HashCode>
+      <FileName>WcfDynamic\DynamicObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Mesurement.UiLayer.VerifyService.IVerifyMessage">
+    <Position X="3.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAQAAAAAAAAARAEICAAAEAAAAAAAAAA=</HashCode>
+      <FileName>IVerifyMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

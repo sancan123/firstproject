@@ -1,0 +1,20 @@
+﻿Mesurement.UiLayer.WPF
+
+
+winexe
+C#
+.cs
+C:\Users\00076427\Desktop\国网2020\1.0.0.4-20200827\UI\Clou.Mesurement.UiLayer-nw\Clou.Mesurement.UiLayer.WPF\obj\Debug\
+Mesurement.UiLayer.WPF
+none
+false
+DEBUG;TRACE
+C:\Users\00076427\Desktop\国网2020\1.0.0.4-20200827\UI\Clou.Mesurement.UiLayer-nw\Clou.Mesurement.UiLayer.WPF\App.xaml
+761461082695
+4634009122
+107-575131621
+27776231302
+Controls\ArrowLineWithText.xaml;Controls\ControlEcription.xaml;Controls\ControlPower.xaml;Controls\EditBox.xaml;Controls\Light\FlashLight.xaml;Controls\Light\StatusLight.xaml;Controls\Light\ColorLight.xaml;Controls\UserMenu.xaml;Controls\WindowEditEnum.xaml;Resources\zh_CN.xaml;MainWindow.xaml;Schema\Error\ControlDataGridError.xaml;Schema\Error\ControlTreeError.xaml;Schema\ViewAddSchema.xaml;Schema\ViewCopySchema.xaml;Schema\ViewDeleteSchema.xaml;Simple Styles.xaml;Styles\TabControlStyle.xaml;Styles\ButtonStyle.xaml;Styles\ComboBox.xaml;Styles\DataGridStyle.xaml;Styles\DataGridTreeSummarySave.xaml;Styles\DataGridTree1.xaml;Styles\DataGridTree.xaml;Styles\ScrollBarStyle.xaml;Styles\ScrollViewerStyle.xaml;Styles\SkinResouce.xaml;Styles\TreeViewStyle.xaml;Styles\TextBoxStyle.xaml;Styles\CheckBoxStyle.xaml;Styles\DataGridTreeSchemaConfig.xaml;UserManagement\PageUserHome.xaml;UserManagement\PageUserLogin.xaml;View\ViewMeterZaiBO.xaml;View\ViewMisConfig.xaml;View\ViewClientConfig.xaml;View\ViewErrorLimit.xaml;View\ViewInputPara.xaml;View\ViewInputParaConfig.xaml;View\ViewMenuAll.xaml;View\ViewMeterProtocol.xaml;View\ViewProtocolConfig.xaml;View\ViewRegister.xaml;View\ViewSchemaConfig.xaml;View\ViewSchemaItemConfig.xaml;View\ViewComServer.xaml;View\ViewSaveData.xaml;View\ViewCodeTree.xaml;View\ViewPortConfig.xaml;View\ViewMenuConfig.xaml;View\ViewSchemaOperation.xaml;View\ViewSchemaSort.xaml;View\ViewUser.xaml;UserManagement\PageChangePassword.xaml;UserManagement\PageAddUser.xaml;UserManagement\PageDeleteUser.xaml;View\ViewAbout.xaml;View\ViewResultDetail.xaml;View\ViewConfig.xaml;View\ViewLog.xaml;View\ViewErrorBoard.xaml;View\ViewResultSummary.xaml;View\ViewService.xaml;View\ViewStd.xaml;View\DataBaseDisplay.xaml;Controls\DataPager.xaml;View\ViewDevice.xaml;View\ViewLogBox.xaml;Schema\ViewRenameSchema.xaml;View\ViewFrameLog.xaml;View\ViewDbUpdate.xaml;View\ViewLiveMeterFrame.xaml;WindowAddNewCode.xaml;WindowError.xaml;WindowLogin.xaml;WindowVerifyControl.xaml;
+
+False
+

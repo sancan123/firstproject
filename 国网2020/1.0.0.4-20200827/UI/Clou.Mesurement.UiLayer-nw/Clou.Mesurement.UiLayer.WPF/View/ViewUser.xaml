@@ -1,0 +1,29 @@
+﻿<basemodel:DockControlDisposable x:Class="Mesurement.UiLayer.WPF.View.ViewUser"
+             xmlns:basemodel="clr-namespace:Mesurement.UiLayer.WPF.Model"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                                 Foreground="{DynamicResource 字体颜色标准}"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        FontSize="24">
+    <Border Height="500" Width="700">
+        <Grid>
+            <Frame Name="frameUser"
+               NavigationUIVisibility="Hidden"/>
+            <StackPanel Margin="10" 
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Orientation="Horizontal">
+                <TextBlock Text="{DynamicResource 当前用户}"/>
+                <TextBlock Margin="5,0" 
+                       Text="{Binding CurrentUser.chrUserName}"/>
+            </StackPanel>
+            <Button Content="{DynamicResource 返回}"
+                Name="buttonBack"
+                Width="80"
+                Height="40"
+                Margin="10"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top" 
+                Click="Button_Click"/>
+        </Grid>
+    </Border>
+</basemodel:DockControlDisposable>

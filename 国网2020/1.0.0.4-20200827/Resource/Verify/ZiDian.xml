@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ZiDianGroup>
+  <R Name="电压">
+    <C><![CDATA[57.7]]></C>
+    <C><![CDATA[100]]></C>
+    <C><![CDATA[220]]></C>
+    <C><![CDATA[380]]></C>
+  </R>
+  <R Name="电流">
+    <C><![CDATA[1]]></C>
+    <C><![CDATA[1.5]]></C>
+    <C><![CDATA[4]]></C>
+    <C><![CDATA[5]]></C>
+    <C><![CDATA[6]]></C>
+    <C><![CDATA[10]]></C>
+    <C><![CDATA[15]]></C>
+    <C><![CDATA[20]]></C>
+    <C><![CDATA[40]]></C>
+    <C><![CDATA[60]]></C>
+    <C><![CDATA[80]]></C>
+    <C><![CDATA[100]]></C>
+    <C><![CDATA[0.3]]></C>
+    <C><![CDATA[1.2]]></C>
+  </R>
+  <R Name="常数">
+    <C><![CDATA[1200]]></C>
+    <C><![CDATA[1200(1200)]]></C>
+    <C><![CDATA[2400(2400)]]></C>
+    <C><![CDATA[400(400)]]></C>
+    <C><![CDATA[320]]></C>
+    <C><![CDATA[400]]></C>
+    <C><![CDATA[300(300)]]></C>
+    <C><![CDATA[6400]]></C>
+    <C><![CDATA[6400(6400)]]></C>
+    <C><![CDATA[20000]]></C>
+    <C><![CDATA[100000]]></C>
+    <C><![CDATA[3200]]></C>
+  </R>
+  <R Name="等级">
+    <C><![CDATA[1.0]]></C>
+    <C><![CDATA[0.5S(2)]]></C>
+    <C><![CDATA[0.2S(1)]]></C>
+    <C><![CDATA[1(2)]]></C>
+    <C><![CDATA[2.0]]></C>
+    <C><![CDATA[0.5(1.0S)]]></C>
+    <C><![CDATA[1.0(2.0)]]></C>
+  </R>
+  <R Name="制造厂家">
+    <C><![CDATA[深圳科陆]]></C>
+    <C><![CDATA[江苏林洋]]></C>
+    <C><![CDATA[杭州华立]]></C>
+    <C><![CDATA[湖南威盛]]></C>
+    <C><![CDATA[北京博纳电气有限公司]]></C>
+    <C><![CDATA[鼎信芯片]]></C>
+    <C><![CDATA[北京富卓]]></C>
+    <C><![CDATA[81279部队]]></C>
+    <C><![CDATA[黑龙江龙电电气有限公司]]></C>
+    <C><![CDATA[江苏苏源杰瑞电表有限公司]]></C>
+    <C><![CDATA[华立仪表集团股份有限公司]]></C>
+  </R>
+  <R Name="表类型">
+    <C><![CDATA[电子式]]></C>
+    <C><![CDATA[机电式]]></C>
+    <C><![CDATA[感应式]]></C>
+    <C><![CDATA[机械式]]></C>
+    <C><![CDATA[多功能]]></C>
+    <C><![CDATA[电子式-智能远程费控]]></C>
+    <C><![CDATA[感应式-长寿命]]></C>
+    <C><![CDATA[电子式-智能本地费控(CPU卡)]]></C>
+  </R>
+  <R Name="表型号">
+    <C><![CDATA[DDS668]]></C>
+    <C><![CDATA[AINRT]]></C>
+    <C><![CDATA[BH-0.66]]></C>
+    <C><![CDATA[DDZY733-Z]]></C>
+    <C><![CDATA[D661]]></C>
+    <C><![CDATA[BBSP610]]></C>
+    <C><![CDATA[DTZY52-Z]]></C>
+    <C><![CDATA[DTSD71]]></C>
+    <C><![CDATA[DDZY49C-Z]]></C>
+    <C><![CDATA[DTZY545-G]]></C>
+  </R>
+  <R Name="送检单位">
+    <C><![CDATA[黑龙江省计量中心]]></C>
+    <C><![CDATA[65101]]></C>
+    <C><![CDATA[华立仪表集团公司]]></C>
+  </R>
+  <R Name="检定类型">
+    <C><![CDATA[首检]]></C>
+    <C><![CDATA[周检]]></C>
+  </R>
+  <R Name="标准表">
+    <C><![CDATA[CL3115]]></C>
+    <C><![CDATA[CL311V2]]></C>
+    <C><![CDATA[CL3112]]></C>
+  </R>
+  <R Name="精准时基源">
+    <C><![CDATA[CL191B]]></C>
+  </R>
+  <R Name="误差板">
+    <C><![CDATA[CL188M]]></C>
+    <C><![CDATA[CL188E]]></C>
+  </R>
+  <R Name="温度板">
+    <C><![CDATA[TEMP101B]]></C>
+  </R>
+  <R Name="功率源">
+    <C><![CDATA[CL309]]></C>
+    <C><![CDATA[CL303]]></C>
+  </R>
+  <R Name="载波板">
+    <C><![CDATA[CL2041]]></C>
+    <C><![CDATA[CL2041]]></C>
+    <C><![CDATA[CL2041]]></C>
+    <C><![CDATA[CL2041]]></C>
+  </R>
+  <R Name="耐压仪">
+    <C><![CDATA[CL2038A]]></C>
+  </R>
+  <R Name="2029B多功能板">
+    <C><![CDATA[CL2029B]]></C>
+  </R>
+  <R Name="翻转电机控制板">
+    <C><![CDATA[DJKZ101B]]></C>
+  </R>
+  <R Name="压接电机控制板">
+    <C><![CDATA[DJKZ101B]]></C>
+  </R>
+  <R Name="功耗板">
+    <C><![CDATA[GHB100]]></C>
+  </R>
+  <R Name="CT控制器">
+    <C><![CDATA[CT100]]></C>
+  </R>
+  <R Name="远程控制板">
+    <C><![CDATA[CL2029F]]></C>
+  </R>
+  <R Name="触摸屏">
+    <C><![CDATA[CMP100]]></C>
+  </R>
+  <R Name="RS485通道">
+    <C><![CDATA[UdpPort]]></C>
+  </R>
+  <R Name="CL2019控制板">
+    <C><![CDATA[CL2019]]></C>
+  </R>
+  <R Name="CL2029D多功能板">
+    <C><![CDATA[CL2029D]]></C>
+  </R>
+  <R Name="南网读写卡器">
+    <C><![CDATA[科陆]]></C>
+    <C><![CDATA[握奇]]></C>
+  </R>
+  <R Name="波特率">
+    <C><![CDATA[1200,e,8,1]]></C>
+    <C><![CDATA[1200,n,8,1]]></C>
+    <C><![CDATA[9600,e,8,1]]></C>
+    <C><![CDATA[9600,n,8,1]]></C>
+    <C><![CDATA[19200,n,8,1]]></C>
+    <C><![CDATA[38400,n,8,1]]></C>
+    <C><![CDATA[2400,n,8,1]]></C>
+    <C><![CDATA[2400,e,8,1]]></C>
+    <C><![CDATA[115200,n,8,1]]></C>
+  </R>
+</ZiDianGroup>

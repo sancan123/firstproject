@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<NewUser>
+  <CloumMIS>
+    <Item Name="ZipType" Value="月备份" />
+    <Item Name="ShowMessage" Value="False" />
+    <Item Name="chk_mdb" Value="True" />
+    <Item Name="chk_ini" Value="False" />
+    <Item Name="chk_exe" Value="False" />
+    <Item Name="chk_dll" Value="False" />
+    <Item Name="chk_bat" Value="False" />
+    <Item Name="chk_xml" Value="False" />
+    <Item Name="chk_txt" Value="False" />
+  </CloumMIS>
+</NewUser>

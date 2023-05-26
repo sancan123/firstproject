@@ -1,0 +1,106 @@
+﻿<basemodel:DockControlDisposable
+    xmlns:Controls="clr-namespace:Mesurement.UiLayer.WPF.UiGeneral" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:basemodel="clr-namespace:Mesurement.UiLayer.WPF.Model"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:FrameLog="clr-namespace:Mesurement.UiLayer.ViewModel.FrameLog;assembly=Mesurement.UiLayer.ViewModel"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                                 Foreground="{DynamicResource 字体颜色标准}"
+             xmlns:Converter="clr-namespace:Mesurement.UiLayer.WPF.Converter"
+            xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero"
+    x:Class="Mesurement.UiLayer.WPF.View.ViewLiveMeterFrame"
+             xmlns:i= "clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+            mc:Ignorable="d" 
+    HorizontalAlignment="Left"
+             d:DesignHeight="250"
+    d:DesignWidth="600">
+    <Grid Name="gridFrames">
+        <DataGrid HeadersVisibility="Column"
+                  Name="dataGrid"
+                  AutoGenerateColumns="False"
+            ItemsSource="{Binding CheckNodeCurrent.LiveFrames.DisplayModels}" 
+                  Style="{DynamicResource dataGridStyleGeneral}">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Click="MenuItem_Click"
+                        Header="{DynamicResource 复制}"/>
+                </ContextMenu>
+                </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="{DynamicResource 类型}"
+                                        Width="40">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="2">
+                                <TextBlock Text="{DynamicResource 发送}" Margin="3,1"/>
+                                <TextBlock Text="{DynamicResource 接收}" Margin="3,1"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource 时间}"
+                                        Width="90">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="2">
+                                <TextBlock Text="{Binding chrSTime}" Margin="3,1"/>
+                                <TextBlock Text="{Binding chrRTime}" Margin="3,1"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource 报文}"
+                                        Width="2*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="2">
+                                <TextBlock Text="{Binding chrSFrame}" 
+                                            ToolTip="{Binding chrSFrame}"
+                                           Margin="3,1"/>
+                                <TextBlock Text="{Binding chrRFrame}"
+                                            ToolTip="{Binding chrRFrame}"
+                                           Margin="3,1"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="{DynamicResource 解析}"
+                                        Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="2">
+                                <TextBlock Text="{Binding chrSMeaning}"
+                                           ToolTip="{Binding chrSMeaning}"
+                                           Margin="3,1"/>
+                                <TextBlock Text="{Binding chrRMeaning}" 
+                                           ToolTip="{Binding chrRMeaning}"
+                                           Margin="3,1"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Canvas ClipToBounds="True">
+            <Border BorderThickness="1"
+                        Canvas.Right="3"
+                      Canvas.Bottom="3"
+                    BorderBrush="{DynamicResource 边框颜色}" Background="{DynamicResource 窗口背景深色半透明}" Cursor="SizeAll">
+                <i:Interaction.Behaviors>
+                    <Controls:MoveBehavior/>
+                </i:Interaction.Behaviors>
+                <StackPanel Orientation="Horizontal" >
+                    <TextBlock VerticalAlignment="Center"
+                           Margin="3"
+                           Text="{DynamicResource 表位}"/>
+                    <ComboBox
+                           Width="40"
+                        Margin="3" Style="{DynamicResource StyleComboBox}" 
+                        ItemsSource="{Binding CheckNodeCurrent.LiveFrames.BwCollection.ItemsSource}"
+                        SelectedItem="{Binding CheckNodeCurrent.LiveFrames.BwCollection.SelectedItem, Mode=TwoWay}"/>
+                </StackPanel>
+            </Border>
+        </Canvas>
+    </Grid>
+</basemodel:DockControlDisposable>

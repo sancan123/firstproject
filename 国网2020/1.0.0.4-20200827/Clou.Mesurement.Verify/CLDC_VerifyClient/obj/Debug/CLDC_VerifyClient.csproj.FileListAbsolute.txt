@@ -1,0 +1,7 @@
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyClient\obj\Debug\CLDC_VerifyClient.csprojResolveAssemblyReference.cache
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyClient\bin\Debug\CLDC_VerifyClient.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyClient\bin\Debug\CLDC_VerifyClient.pdb
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyClient\bin\Debug\CLDC_Interfaces.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyClient\bin\Debug\CLDC_Interfaces.pdb
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyClient\obj\Debug\CLDC_VerifyClient.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_VerifyClient\obj\Debug\CLDC_VerifyClient.pdb

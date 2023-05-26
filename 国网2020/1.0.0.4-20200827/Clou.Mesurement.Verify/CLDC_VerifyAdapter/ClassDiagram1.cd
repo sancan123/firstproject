@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="CLDC_VerifyAdapter.PulseChannelDetection" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAEABAAAAABAAABAAEAAAACAAAABAAAAAAAAA=</HashCode>
+      <FileName>PulseChannelDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.BasicError" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAQQABBAAQIgAAAABAQECAAAAAAAAAAQAwQAkAE=</HashCode>
+      <FileName>VerifyControl\BasicError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.ConnProtocol" Collapsed="true">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAQAABBAQIAAAAAMAAEEAAAAAEAAAAAAAQAAAA=</HashCode>
+      <FileName>VerifyControl\ConnProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.ConstantVerify" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAQBABAAQAKACABAAAEAQAAogSAAAAAAwCEAAE=</HashCode>
+      <FileName>VerifyControl\ConstantVerify.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Creep" Collapsed="true">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAABAAQAIAAAABAAEAAQAAIEAAAAAAAABAAA=</HashCode>
+      <FileName>VerifyControl\Creep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.ErrorAccord" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIAAAAIQIBRAAwIAgAAABAAEAAAAAAAAAAAAAgQIEAE=</HashCode>
+      <FileName>VerifyControl\ErrorAccord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.PreHeat" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAABAAQAAAAAAAAAEAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>VerifyControl\PreHeat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.SpecilTest" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAAAAABBAAQIAAAgAFAAEAAAAAAAAABAAAAQAUAA=</HashCode>
+      <FileName>VerifyControl\SpecilTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Starts" Collapsed="true">
+    <Position X="10" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAABCAQAAAAACBAgEAAAAAIAAAAAAAAABAAA=</HashCode>
+      <FileName>VerifyControl\Starts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.VerifyBase" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEQAQkAAhABBAQAAAEAIQAIMABAAJIEIIyGQAACRBCE=</HashCode>
+      <FileName>VerifyControl\VerifyBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_CheckEnerfy" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Multi\Dgn_CheckEnerfy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_CheckRam_Demand" Collapsed="true">
+    <Position X="7.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAJAAACAAAAAAAAA=</HashCode>
+      <FileName>Multi\Dgn_CheckRam_Demand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_CheckRam_Energy" Collapsed="true">
+    <Position X="3.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgAAAAiAAAA=</HashCode>
+      <FileName>Multi\Dgn_CheckRam_Energy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_CheckRam_Instant" Collapsed="true">
+    <Position X="10.5" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Multi\Dgn_CheckRam_Instant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_CheckRam_Log" Collapsed="true">
+    <Position X="10" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>Multi\Dgn_CheckRam_Log.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_CheckRam_State" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Multi\Dgn_CheckRam_State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_CheckRam_Voltage" Collapsed="true">
+    <Position X="7.75" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Multi\Dgn_CheckRam_Voltage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_ClearDemand" Collapsed="true">
+    <Position X="12.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Multi\Dgn_ClearDemand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_ClearEnerfy" Collapsed="true">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Multi\Dgn_ClearEnerfy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_ClockError" Collapsed="true">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAASAYAAAAAABAAAAAQIAAEAAQAASgEAA=</HashCode>
+      <FileName>Multi\Dgn_ClockError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_CommTest" Collapsed="true">
+    <Position X="6" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Multi\Dgn_CommTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_Encryption_Certification" Collapsed="true">
+    <Position X="12.25" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAgAAAAQABAAAAAAAAAAAEQgAAAAEAACQAAQA=</HashCode>
+      <FileName>Multi\Dgn_Encryption_Certification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_Encryption_Control" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAgAAAAQABAAAAAAAAAAAEQgAAAAEAACQAAQA=</HashCode>
+      <FileName>Multi\Dgn_Encryption_Control.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_Encryption_ReadEsam" Collapsed="true">
+    <Position X="3.25" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAgAAAAQABAAAAAAAAAAAEQgAAAAEAACQAAQA=</HashCode>
+      <FileName>Multi\Dgn_Encryption_ReadEsam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_Encryption_UpdateKey" Collapsed="true">
+    <Position X="10" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAgAAAAQABAAAAAAAAAAAEQgAAAAEAACQAAQA=</HashCode>
+      <FileName>Multi\Dgn_Encryption_UpdateKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_GPS" Collapsed="true">
+    <Position X="3.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Multi\Dgn_GPS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_LeapYear" Collapsed="true">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Multi\Dgn_LeapYear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_MaxDemand" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAgAAAQAAAAACAAAAAAAAAIgAAAAAAICAAAE=</HashCode>
+      <FileName>Multi\Dgn_MaxDemand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_PeriodChange" Collapsed="true">
+    <Position X="8.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQACAAAIAE=</HashCode>
+      <FileName>Multi\Dgn_PeriodChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_RatePeriod" Collapsed="true">
+    <Position X="12.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAIAE=</HashCode>
+      <FileName>Multi\Dgn_RatePeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_ReadEnerfy" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAACAAAA=</HashCode>
+      <FileName>Multi\Dgn_ReadEnerfy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_ReadPara" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Multi\Dgn_ReadPara.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_ReadPeriod" Collapsed="true">
+    <Position X="12.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Multi\Dgn_ReadPeriod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_Register" Collapsed="true">
+    <Position X="10" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAIAE=</HashCode>
+      <FileName>Multi\Dgn_Register.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_TimeError" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Multi\Dgn_TimeError.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.Dgn_UFallOrStep" Collapsed="true">
+    <Position X="3.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Multi\Dgn_UFallOrStep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_VerifyAdapter.Multi.DgnBase" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EARAAAAQAABAgAAAAAAEAAAGEQAAAgAAAAAAgACgAAA=</HashCode>
+      <FileName>Multi\DgnBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,20 @@
+
+2015-04-22 08:53:52:15.4.22 8:53:52==========>正控制源输出失败,重复1次
+    
+    
+2015-04-22 08:53:58:15.4.22 8:53:58==========>正控制源输出失败,重复2次
+    
+    
+2015-04-22 08:54:04:15.4.22 8:54:04==========>正控制源输出失败,重复3次
+    
+    
+2015-04-22 08:54:38:15.4.22 8:54:38==========>正控制源输出失败,重复1次
+    
+    
+2015-04-22 08:58:12:源数组长度不足。请检查 srcIndex 和长度以及数组的下限。
+       在 System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   在 System.Collections.Generic.Queue`1.SetCapacity(Int32 capacity)
+   在 System.Collections.Generic.Queue`1.Enqueue(T item)
+   在 CLDC_DataCore.MessageController.AddMonitorMessage(EnumMonitorType monitorType, String text) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\MessageController.cs:行号 53
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.ConvertStatus(stError[] stStatus, Int32 type) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 1359
+    

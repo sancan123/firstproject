@@ -1,0 +1,1491 @@
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 152
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.SetEquipmentThreeColor(Int32 iID, Int32 iType) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 1576
+   在 ClientFrame.ClientMain2.Frame_OnMenuClcik(Cus_MenuEventID EventID) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 648
+   在 CLDC_MeterUI.UI_ClientFrame.thMenuEvent(Object eventID) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_MeterUI\UI_ClientFrame.cs:行号 1132
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 152
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+值不能为空。
+参数名: str   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 51
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+找不到功率源驱动文件   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 51
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+找不到功率源驱动文件
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Exception: 找不到功率源驱动文件 ---> System.ArgumentNullException: 值不能为空。
+参数名: str
+   在 System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 43
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 51
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Exception: 找不到功率源驱动文件 ---> System.ArgumentNullException: 值不能为空。
+参数名: str
+   在 System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 43
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 51
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Exception: 找不到功率源驱动文件 ---> System.ArgumentNullException: 值不能为空。
+参数名: str
+   在 System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 46
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 54
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 22
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Exception: 找不到功率源驱动文件 ---> System.ArgumentNullException: 值不能为空。
+参数名: str
+   在 System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 46
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 54
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 22
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Exception: 找不到功率源驱动文件 ---> System.ArgumentNullException: 值不能为空。
+参数名: str
+   在 System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 46
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 54
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 22
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Exception: 找不到功率源驱动文件 ---> System.ArgumentNullException: 值不能为空。
+参数名: str
+   在 System.Security.Permissions.FileIOPermission.HasIllegalCharacters(String[] str)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 46
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 54
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 22
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Exception: 找不到功率源驱动文件E_CL309 ---> System.ArgumentException: 需要绝对路径信息。
+   在 System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 46
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 54
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 22
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Exception: 找不到功率源驱动文件E_CL309 ---> System.ArgumentException: 需要绝对路径信息。
+   在 System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 46
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 54
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 22
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.SetEquipmentThreeColor(Int32 iID, Int32 iType) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 1577
+   在 ClientFrame.ClientMain2.Frame_OnMenuClcik(Cus_MenuEventID EventID) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 648
+   在 CLDC_MeterUI.UI_ClientFrame.thMenuEvent(Object eventID) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_MeterUI\UI_ClientFrame.cs:行号 1118
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Exception: 找不到功率源驱动文件E_CL309 ---> System.IO.FileNotFoundException: 系统找不到指定的文件。 (异常来自 HRESULT:0x80070002)
+   在 System.Reflection.Assembly.nLoadFile(String path, Evidence evidence)
+   在 System.Reflection.Assembly.LoadFile(String path)
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 47
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 55
+   在 CLDC_DeviceDriver.Drivers.Clou.Power..ctor(String fileName, String className) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 22
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.loadSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 465
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 286
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.SetEquipmentThreeColor(Int32 iID, Int32 iType) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 1577
+   在 ClientFrame.ClientMain2.Frame_OnMenuClcik(Cus_MenuEventID EventID) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 648
+   在 CLDC_MeterUI.UI_ClientFrame.thMenuEvent(Object eventID) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_MeterUI\UI_ClientFrame.cs:行号 1118
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+线程池发生错误!
+调用的目标发生了异常。   在 CLDC_DeviceDriver.Drivers.Clou.ABase.MethodInvoke(String methodName, Object[] objPara) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 32
+   在 CLDC_DeviceDriver.Drivers.Clou.Power.Connect() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 114
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 2089
+   在 CLDC_DeviceDriver.Driver.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 236
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 E_CL309.CL309.InitSetting(Int32 ComNumber, Int32 Parameter, Int32 MaxWaitTime, Int32 WaitSencondsPerByte, String IP, Int32 RemotePort, Int32 LocalStartPort)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 CLDC_DeviceDriver.Drivers.Clou.ABase.MethodInvoke(String methodName, Object[] objPara) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\ABase.cs:行号 32
+   在 CLDC_DeviceDriver.Drivers.Clou.Power.InitSetting(Int32 ComNumber, Int32 Parameter, Int32 MaxWaitTme, Int32 WaitSencondsPerByte, String IP, Int32 RemotePort, Int32 LocalStartPort) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Power.cs:行号 109
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.RegisterSetting() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 317
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 288
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DeviceDriver\Driver.cs:行号 187
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 122
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 153
+   在 ClientFrame.ClientMain2.ConnectEquip(Boolean bLink) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 1021
+   在 ClientFrame.ClientMain2.thConnectEquip() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 290
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+线程池发生错误!
+未将对象引用设置到对象的实例。   在 CLDC_VerifyAdapter.Helper.EquipHelper.SetEquipmentThreeColor(Int32 iID, Int32 iType) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 1577
+   在 ClientFrame.ClientMain2.Frame_OnMenuClcik(Cus_MenuEventID EventID) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 648
+   在 CLDC_MeterUI.UI_ClientFrame.thMenuEvent(Object eventID) 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_MeterUI\UI_ClientFrame.cs:行号 1118
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+线程池发生错误!
+调用的目标发生了异常。   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance[T]()
+   在 CLDC_Interfaces.SingletonBase`1.get_Instance() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_Interfaces\SingletonBase.cs:行号 29
+   在 CLDC_MeterUI.UI_Detection_New.ControlBox.btn_OutMessage_Click(Object sender, EventArgs e) 位置 e:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_MeterUI\UI_Detection_New\ControlBox.cs:行号 281
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 DevComponents.DotNetBar.ButtonX.OnClick(EventArgs e)
+   在 DevComponents.DotNetBar.ButtonX.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevComponents.DotNetBar.PopupItemControl.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.RunDialog(Form form)
+   在 System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.Form.ShowDialog()
+   在 CLDC_MeterUI.UI_Detection_New.ControlBox.ShowD() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_MeterUI\UI_Detection_New\ControlBox.cs:行号 42
+   在 ClientFrame.ClientMain2.Frame_OnMenuClcik(Cus_MenuEventID EventID) 位置 e:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_StartUp\ClientMain2.cs:行号 554
+   在 CLDC_MeterUI.UI_ClientFrame.thMenuEvent(Object eventID) 位置 e:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_MeterUI\UI_ClientFrame.cs:行号 1118
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.ConvertPortInfo(DeviceParaUnit[] paraUnits) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 377
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 300
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 289
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 207
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 e:\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 149
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.ConvertPortInfo(DeviceParaUnit[] paraUnits) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 388
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 300
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 289
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 207
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 e:\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 149
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.ConvertPortInfo(DeviceParaUnit[] paraUnits) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 388
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 300
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 289
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 207
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 e:\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 149
+具体情况请查看日志文件
+线程池发生错误!
+索引超出了数组界限。   在 CLDC_DeviceDriver.Drivers.Clou.Driver.Link() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 2232
+   在 CLDC_DeviceDriver.Driver.Link() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 241
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 173
+   在 CLDC_VerifyServer.ClientMain.ConnectEquip(Boolean bLink)
+   在 CLDC_VerifyServer.ClientMain.thConnectEquip()
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+线程池发生错误!
+索引超出了数组界限。   在 CLDC_DeviceDriver.Drivers.Clou.Driver.Link() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 2232
+   在 CLDC_DeviceDriver.Driver.Link() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 241
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Link() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 173
+   在 CLDC_VerifyServer.ClientMain.ConnectEquip(Boolean bLink) 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 510
+   在 CLDC_VerifyServer.ClientMain.thConnectEquip() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 206
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 54
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\SVN\CL3000S-H\CL3000S-H_R\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 214
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 E:\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 E:\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 E:\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 E:\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 E:\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+线程池发生错误!
+线程正在运行或被终止；它无法重新启动。   在 System.Threading.Thread.StartupSetApartmentStateInternal()
+   在 System.Threading.Thread.Start(StackCrawlMark& stackMark)
+   在 System.Threading.Thread.Start()
+   在 CLDC_VerifyServer.ClientMain.StartReadStdThread() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyServer\ClientMain.cs:行号 200
+   在 CLDC_DataCore.Function.ThreadCallBack.thCall(Object obj) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DataCore\Function\ThreadCallBack.cs:行号 52
+   在 CLDC_Comm.ClouThreadPoolItem.DoLoopWork() 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_Comm\ThreadPool.cs:行号 213
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.FormatException: 指定了无效的 IP 地址。
+   在 System.Net.IPAddress.InternalParse(String ipString, Boolean tryParse)
+   在 System.Net.IPAddress.Parse(String ipString)
+   在 CLDC_DeviceDriver.Drivers.DriverBase.RegisterPort(Int32 port, String strSetting, String IP, Int32 RemotePort, Int32 LocalStartPoet, Int32 maxWaittime, Int32 waitSencondsPerByte) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\DriverBase.cs:行号 83
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.ConvertPortInfo(DeviceParaUnit[] paraUnits) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 390
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 305
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 288
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 147
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.FormatException: 指定了无效的 IP 地址。
+   在 System.Net.IPAddress.InternalParse(String ipString, Boolean tryParse)
+   在 System.Net.IPAddress.Parse(String ipString)
+   在 CLDC_DeviceDriver.Drivers.DriverBase.RegisterPort(Int32 port, String strSetting, String IP, Int32 RemotePort, Int32 LocalStartPoet, Int32 maxWaittime, Int32 waitSencondsPerByte) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\DriverBase.cs:行号 83
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.ConvertPortInfo(DeviceParaUnit[] paraUnits) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 464
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 344
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 327
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 147
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.FormatException: 指定了无效的 IP 地址。
+   在 System.Net.IPAddress.InternalParse(String ipString, Boolean tryParse)
+   在 System.Net.IPAddress.Parse(String ipString)
+   在 CLDC_DeviceDriver.Drivers.DriverBase.RegisterPort(Int32 port, String strSetting, String IP, Int32 RemotePort, Int32 LocalStartPoet, Int32 maxWaittime, Int32 waitSencondsPerByte) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\DriverBase.cs:行号 83
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.ConvertPortInfo(DeviceParaUnit[] paraUnits) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 464
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 344
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 327
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 e:\MeterPlatform\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 147
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 84
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CL2050..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CL2050.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCL2050() 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 384
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 440
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 328
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 84
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CL2050..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CL2050.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCL2050() 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 384
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 440
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 328
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 84
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CL2050..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CL2050.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCL2050() 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 384
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 440
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 328
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 84
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CL2050..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CL2050.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCL2050() 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 384
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 440
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 328
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 84
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CL2050..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CL2050.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCL2050() 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 384
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 440
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 328
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 84
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CL2050..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CL2050.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCL2050() 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 384
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 440
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 328
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 84
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CL2050..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CL2050.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCL2050() 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 384
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 440
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 328
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 84
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CL2050..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CL2050.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCL2050() 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 384
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 440
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 328
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 206
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 c:\DT\Test4.0.0.x-20150611\CL3000S-H\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly)
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly)
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl()
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl()
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice)
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice)
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice)
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 405
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 405
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 405
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 405
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 405
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 405
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 405
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardControl.LoadCardControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardControl.LoadCardControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardControl.LoadCardControl() 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20150928\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly)
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly)
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl()
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl()
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice)
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice)
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice)
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 429
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20151208\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 130
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 94
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 97
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 14
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 410
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.EntryPointNotFoundException: 无法在 DLL“DllFile\DeviceManufacturers\GeNing\CardReaderControl.dll”中找到名为“InitCard”的入口点。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.API.CardControlAPI_GeNing.InitCard()
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.CardReaderControl.InitCard() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\CardReaderControl.cs:行号 57
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetCardControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 432
+   在 CLDC_DeviceDriver.CardReaderControl.LoadCardControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\CardReaderControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 449
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 System.Enum.Parse(Type enumType, String value)
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 413
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 447
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 333
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 208
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 f:\20160127\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 131
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureParameter)
+   在 System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 System.Enum.Parse(Type enumType, String value)
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl()
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl()
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice)
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice)
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice)
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray)
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 System.Enum.Parse(Type enumType, String value)
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\Clou\南网电表\多芯电表201910220849\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 91
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\Clou\南网电表\多芯电表201910220849\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\Clou\南网电表\多芯电表201910220849\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\Clou\南网电表\多芯电表201910220849\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\Clou\南网电表\多芯电表201910220849\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 162
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\Clou\南网电表\多芯电表201910220849\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 System.Enum.Parse(Type enumType, String value)
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\Clou\南网电表\多芯电表201910221024\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 91
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\Clou\南网电表\多芯电表201910221024\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\Clou\南网电表\多芯电表201910221024\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\Clou\南网电表\多芯电表201910221024\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\Clou\南网电表\多芯电表201910221024\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 162
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\Clou\南网电表\多芯电表201910221024\1.0.0.4-20190920\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult& parseResult)
+   在 System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   在 System.Enum.Parse(Type enumType, String value)
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\Clou\南网电表\多芯电表201910221028-1509\1.0.0.4-20191028\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 91
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\Clou\南网电表\多芯电表201910221028-1509\1.0.0.4-20191028\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\Clou\南网电表\多芯电表201910221028-1509\1.0.0.4-20191028\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\Clou\南网电表\多芯电表201910221028-1509\1.0.0.4-20191028\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\Clou\南网电表\多芯电表201910221028-1509\1.0.0.4-20191028\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 162
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\Clou\南网电表\多芯电表201910221028-1509\1.0.0.4-20191028\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 172
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表201912120920\1.0.0.4-20191101\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件
+初始化设备控制器发生错误!
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.ABase..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表202004221704\1.0.0.4-20200116\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\ABase.cs:行号 107
+   在 CLDC_DeviceDriver.Drivers.Clou.DllPackage.DeviceControl..ctor(String fileName, String className, Boolean isLocalAssemly) 位置 d:\clou\多芯电表202004221704\1.0.0.4-20200116\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\DllPackage\DeviceControl.cs:行号 18
+   在 CLDC_DeviceDriver.PortFactory.DeviceFactory.GetDeviceControl() 位置 d:\clou\多芯电表202004221704\1.0.0.4-20200116\Clou.Mesurement.Verify\CLDC_DeviceDriver\PortFactory\DeviceFactory.cs:行号 90
+   在 CLDC_DeviceDriver.DeviceControl.LoadDeviceControl() 位置 d:\clou\多芯电表202004221704\1.0.0.4-20200116\Clou.Mesurement.Verify\CLDC_DeviceDriver\DeviceControl.cs:行号 16
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver.InitSetting(String[] arrayDevice) 位置 d:\clou\多芯电表202004221704\1.0.0.4-20200116\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 148
+   在 CLDC_DeviceDriver.Drivers.Clou.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表202004221704\1.0.0.4-20200116\Clou.Mesurement.Verify\CLDC_DeviceDriver\Drivers\Clou\Driver.cs:行号 137
+   在 CLDC_DeviceDriver.Driver..ctor(Int32 bws, String[] arrayDevice) 位置 d:\clou\多芯电表202004221704\1.0.0.4-20200116\Clou.Mesurement.Verify\CLDC_DeviceDriver\Driver.cs:行号 175
+   在 CLDC_VerifyAdapter.Helper.EquipHelper.Initialize(Int32 bwCount, String[] deviceArray) 位置 d:\clou\多芯电表202004221704\1.0.0.4-20200116\Clou.Mesurement.Verify\CLDC_VerifyAdapter\Helper\EquipHelper.cs:行号 106
+具体情况请查看日志文件

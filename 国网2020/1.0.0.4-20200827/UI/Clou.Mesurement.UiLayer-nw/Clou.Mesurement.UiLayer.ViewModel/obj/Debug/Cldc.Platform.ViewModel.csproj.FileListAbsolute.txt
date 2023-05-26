@@ -1,0 +1,10 @@
+E:\新检定平台\Platform\Resouce\Cldc.Platform.ViewModel.dll
+E:\新检定平台\Platform\Resouce\Cldc.Platform.ViewModel.pdb
+E:\新检定平台\Platform\Cldc.Platform.ViewModel\obj\Debug\Cldc.Platform.ViewModel.csprojResolveAssemblyReference.cache
+E:\新检定平台\Platform\Cldc.Platform.ViewModel\obj\Debug\Cldc.Platform.ViewModel.dll
+E:\新检定平台\Platform\Cldc.Platform.ViewModel\obj\Debug\Cldc.Platform.ViewModel.pdb
+E:\MyProject\新检定平台\Platform\Resouce\Cldc.Platform.ViewModel.dll
+E:\MyProject\新检定平台\Platform\Resouce\Cldc.Platform.ViewModel.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platform.ViewModel\obj\Debug\Cldc.Platform.ViewModel.csprojResolveAssemblyReference.cache
+E:\MyProject\新检定平台\Platform\Cldc.Platform.ViewModel\obj\Debug\Cldc.Platform.ViewModel.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platform.ViewModel\obj\Debug\Cldc.Platform.ViewModel.pdb

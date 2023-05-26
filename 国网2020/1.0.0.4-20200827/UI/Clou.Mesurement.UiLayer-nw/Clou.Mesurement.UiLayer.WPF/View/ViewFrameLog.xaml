@@ -1,0 +1,188 @@
+﻿<basemodel:DockControlDisposable 
+        xmlns:Controls="clr-namespace:Mesurement.UiLayer.WPF.Controls"
+    x:Class="Mesurement.UiLayer.WPF.View.ViewFrameLog"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:basemodel="clr-namespace:Mesurement.UiLayer.WPF.Model"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ViewModel="clr-namespace:Mesurement.UiLayer.ViewModel.Log;assembly=Mesurement.UiLayer.ViewModel"
+             mc:Ignorable="d" 
+                                 Foreground="{DynamicResource 字体颜色标准}"
+             d:DesignHeight="500"
+             d:DesignWidth="900">
+    <basemodel:DockControlDisposable.Resources>
+        <Style x:Key="StyleListBoxSearch" 
+               TargetType="ListBox">
+            <Style.Resources>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <CheckBox Margin="3"
+                                                      MinWidth="35"
+                                                      Content="{Binding TextCondition}"
+                                                      IsChecked="{Binding IsSelected}"/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Style.Resources>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBox">
+                        <Border BorderBrush="Gray"
+                                BorderThickness="1" 
+                                CornerRadius="3">
+                            <StackPanel>
+                                <CheckBox IsChecked="{Binding IsSelected}"
+                                      Content="{Binding Header}"
+                                      Margin="3"/>
+                                <WrapPanel IsItemsHost="True"
+                                           IsEnabled="{Binding IsSelected}"/>
+                            </StackPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="ItemsSource" Value="{Binding ItemsSource}"/>
+        </Style>
+        <ViewModel:FrameLogViewModel x:Key="FrameLogViewModel"/>
+    </basemodel:DockControlDisposable.Resources>
+    <Grid DataContext="{StaticResource FrameLogViewModel}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="3">
+            <Button Width="24" Height="24"
+                    Command="{Binding LocalCommand}"
+                    CommandParameter="SearchLog"
+                    Margin="3,3,5,3"
+                    HorizontalAlignment="Right">
+                <Image Source="/Mesurement.UiLayer.WPF;component/images/search.png"/>
+            </Button>
+            <ListBox Margin="3" DataContext="{Binding DeviceNameModule}"
+                         Style="{StaticResource StyleListBoxSearch}"/>
+            <ListBox Margin="3" DataContext="{Binding PortNoModule}"
+                         Style="{StaticResource StyleListBoxSearch}"/>
+            <GroupBox  Margin="3"
+                      Padding="15,5,5,5">
+                <GroupBox.Header>
+                    <CheckBox IsChecked="{Binding TimeSelected,Mode=TwoWay}"
+                              Content="{DynamicResource 报文发送时间}"/>
+                </GroupBox.Header>
+                <GroupBox.Resources>
+                    <Style TargetType="CheckBox">
+                        <Setter Property="Margin" Value="3"/>
+                    </Style>
+                </GroupBox.Resources>
+                <StackPanel>
+                    <CheckBox x:Name="checkBox4"
+                              IsChecked="{Binding StartSelected}">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{DynamicResource 晚于}"
+                                       Margin="3,0"
+                                       VerticalAlignment="Center"/>
+                            <DatePicker Width="150"
+                                        SelectedDate="{Binding TimeStart}" IsEnabled="{Binding IsChecked, ElementName=checkBox4}"/>
+                        </StackPanel>
+                    </CheckBox>
+                    <CheckBox x:Name="checkBox3" 
+                              IsChecked="{Binding EndSelected}">
+                        <StackPanel Orientation="Horizontal"
+                                    IsEnabled="{Binding IsChecked, ElementName=checkBox3}">
+                            <TextBlock Text="{DynamicResource 早于}"
+                                       Margin="3,0"
+                                       VerticalAlignment="Center"/>
+                            <DatePicker Width="150"
+                                        SelectedDate="{Binding TimeEnd}"/>
+                        </StackPanel>
+                    </CheckBox>
+                </StackPanel>
+            </GroupBox>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="checkBoxSend" 
+                      HorizontalAlignment="Stretch"
+                IsChecked="{Binding SendTextSelected}"
+                      Margin="5">
+                    <TextBlock Text="{DynamicResource 发送报文}" 
+                               Margin="3,0"
+                               VerticalAlignment="Center"/>
+                </CheckBox>
+                <TextBox  Width="160"
+                              VerticalAlignment="Center"
+                             TextWrapping="WrapWithOverflow"
+                             Text="{Binding SendSearchText}"
+                        IsEnabled="{Binding IsChecked, ElementName=checkBoxSend}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+            <CheckBox x:Name="checkBoxReceive" 
+                      IsChecked="{Binding ReceiveTextSelected}"
+                      Margin="5">
+                    <TextBlock Text="{DynamicResource 接收报文}" 
+                               Margin="3,0"
+                               VerticalAlignment="Center"/>
+            </CheckBox>
+                    <TextBox Width="160"
+                             VerticalAlignment="Center"
+                             TextWrapping="Wrap"
+                             Text="{Binding ReceiveSearchText}"
+                        IsEnabled="{Binding IsChecked, ElementName=checkBoxReceive}"/>
+            </StackPanel>
+            <Button Width="24" Height="24"
+                    Command="{Binding LocalCommand}"
+                    ToolTip="删除台体设备报文(不删除电能表操作报文)"
+                    CommandParameter="DeleteLog"
+                    Margin="15"
+                    HorizontalAlignment="Center">
+                <Image Source="/Mesurement.UiLayer.WPF;component/images/delete.png"/>
+            </Button>
+        </StackPanel>
+        <GridSplitter HorizontalAlignment="Right"
+                      Background="{DynamicResource 分隔条颜色}"
+                      Width="3"
+                      VerticalAlignment="Stretch"/>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <DataGrid Name="dataGrid" 
+                      ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                      ItemsSource="{Binding FrameModels}"
+                      Style="{StaticResource dataGridStyleLog}"
+                      HeadersVisibility="Column">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="{DynamicResource 端口号}"
+                                            Binding="{Binding PortNum}"
+                                               Width="50"/>
+                    <DataGridTextColumn Header="{DynamicResource 设备名称}"
+                                            Binding="{Binding DeviceName}"
+                                               Width="60"/>
+                    <DataGridTextColumn Header="{DynamicResource 发送报文}"
+                                        ElementStyle="{StaticResource StyleWrapText}"
+                        Width="300" Binding="{Binding chrSFrame}"/>
+                    <DataGridTextColumn Header="{DynamicResource 发送报文解析}"
+                                        ElementStyle="{StaticResource StyleWrapText}"
+                        Width="100" Binding="{Binding chrSMeaning}"/>
+                    <DataGridTextColumn Header="{DynamicResource 发送时间}"
+                                        ElementStyle="{StaticResource StyleWrapText}"
+                        Width="70" Binding="{Binding chrSTime}"/>
+                    <DataGridTextColumn Header="{DynamicResource 接收报文}"
+                                        ElementStyle="{StaticResource StyleWrapText}"
+                        Width="300" Binding="{Binding chrRFrame}"/>
+                    <DataGridTextColumn Header="{DynamicResource 接收报文解析}"
+                                        ElementStyle="{StaticResource StyleWrapText}"
+                        Width="100" Binding="{Binding chrRMeaning}"/>
+                    <DataGridTextColumn Header="{DynamicResource 接收时间}"
+                                        ElementStyle="{StaticResource StyleWrapText}"
+                        Width="70" Binding="{Binding chrRTime}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Controls:DataPager  Grid.Row="1"
+                                 DataContext="{Binding PagerModel}"
+                                 Margin="3"/>
+        </Grid>
+    </Grid>
+</basemodel:DockControlDisposable>

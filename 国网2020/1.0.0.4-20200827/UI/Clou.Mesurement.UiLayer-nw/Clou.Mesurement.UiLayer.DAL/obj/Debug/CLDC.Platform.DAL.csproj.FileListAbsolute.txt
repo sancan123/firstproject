@@ -1,0 +1,12 @@
+E:\MyProject\新检定平台\Platform\CLDC.Platform.DAL\bin\Debug\CLDC.Platform.DAL.dll
+E:\MyProject\新检定平台\Platform\CLDC.Platform.DAL\bin\Debug\CLDC.Platform.DAL.pdb
+E:\新检定平台\Platform\Resouce\Cldc.Platform.DAL.dll
+E:\新检定平台\Platform\Resouce\Cldc.Platform.DAL.pdb
+E:\新检定平台\Platform\Cldc.Platform.DAL\obj\Debug\Cldc.Platform.DAL.csprojResolveAssemblyReference.cache
+E:\新检定平台\Platform\Cldc.Platform.DAL\obj\Debug\Cldc.Platform.DAL.dll
+E:\新检定平台\Platform\Cldc.Platform.DAL\obj\Debug\Cldc.Platform.DAL.pdb
+E:\MyProject\新检定平台\Platform\Resouce\Cldc.Platform.DAL.dll
+E:\MyProject\新检定平台\Platform\Resouce\Cldc.Platform.DAL.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platform.DAL\obj\Debug\Cldc.Platform.DAL.csprojResolveAssemblyReference.cache
+E:\MyProject\新检定平台\Platform\Cldc.Platform.DAL\obj\Debug\Cldc.Platform.DAL.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platform.DAL\obj\Debug\Cldc.Platform.DAL.pdb

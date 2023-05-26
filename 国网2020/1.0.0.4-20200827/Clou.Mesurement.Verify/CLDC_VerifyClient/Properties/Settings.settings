@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CLDC_VerifyClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ViewIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://127.0.0.1:8888</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

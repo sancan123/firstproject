@@ -1,0 +1,9 @@
+E:\新检定平台\Platform\Cldc.Platform.Utility\bin\Debug\Cldc.Platform.Utility.dll
+E:\新检定平台\Platform\Cldc.Platform.Utility\bin\Debug\Cldc.Platform.Utility.pdb
+E:\新检定平台\Platform\Cldc.Platform.Utility\obj\Debug\Cldc.Platform.Utility.dll
+E:\新检定平台\Platform\Cldc.Platform.Utility\obj\Debug\Cldc.Platform.Utility.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platform.Utility\bin\Debug\Cldc.Platform.Utility.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platform.Utility\bin\Debug\Cldc.Platform.Utility.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platform.Utility\obj\Debug\Cldc.Platform.Utility.dll
+E:\MyProject\新检定平台\Platform\Cldc.Platform.Utility\obj\Debug\Cldc.Platform.Utility.pdb
+E:\MyProject\新检定平台\Platform\Cldc.Platform.Utility\obj\Debug\Cldc.Platform.Utility.csprojResolveAssemblyReference.cache

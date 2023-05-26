@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CLDC_DeviceDriver.Drivers.ClouSendPacket_NotCltOne" Collapsed="true">
+    <Position X="9" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceAbstractClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.ClouSendPacket_NotCltTwo" Collapsed="true">
+    <Position X="21.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\DeviceAbstractClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.ClouSendPacket_NotClt" Collapsed="true">
+    <Position X="15.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAABAAAAAAAAAAAAAgAABIAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Drivers\DeviceAbstractClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL303SendPacket" Collapsed="true">
+    <Position X="15.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.Cl311SendPacket" Collapsed="true">
+    <Position X="9" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceBaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL303_RequestLinkPacket" Collapsed="true">
+    <Position X="16.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL303_RequestReadPowerStatePacket" Collapsed="true">
+    <Position X="19" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL303_RequestReadVersionPacket" Collapsed="true">
+    <Position X="21.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL303_RequestSetFreqPacket" Collapsed="true">
+    <Position X="3.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL303_RequestSetPowerOffPacket" Collapsed="true">
+    <Position X="5.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL303_RequestSetPowerOnPacket0x30" Collapsed="true">
+    <Position X="7.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAABBAIAAAAAAAAAAAAAAAAAAgAABAAAQiAAAAAEAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL303_RequestSetPowerOnPacket0x35" Collapsed="true">
+    <Position X="10" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JIBgABAAAAAAAACAAAAAAAAgQAgAAJAAAACAAAAAAQA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL303_RequestSetVoltageFallOffPacket" Collapsed="true">
+    <Position X="12.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.Cl303_RequestSetXieBoPacket" Collapsed="true">
+    <Position X="14.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAgAAAAAAAAAAAAAAAACAAABAAAAAEgAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestLinkPacket" Collapsed="true">
+    <Position X="14" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestReadDataOnlyCmdCodePacket" Collapsed="true">
+    <Position X="2.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestReadHarmoniousPacket" Collapsed="true">
+    <Position X="5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestReadStdMeterConstOrPulsePacket" Collapsed="true">
+    <Position X="7.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestReadVerifyDataPacket" Collapsed="true">
+    <Position X="9.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestReadVersionPacket" Collapsed="true">
+    <Position X="11.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestSetMeterParaPacket" Collapsed="true">
+    <Position X="14" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAQAAAAQBAAgAAAAAAAAQA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestSetStdMeterConstPacket" Collapsed="true">
+    <Position X="2.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAIAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestSetStdMeterStartPacket" Collapsed="true">
+    <Position X="5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestSetUScalePacket" Collapsed="true">
+    <Position X="7.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAICAAAAAAAAAAAAAAAAABAADgAgAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.Cl311_RequestStartTaskPacket" Collapsed="true">
+    <Position X="9.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_DeviceDriver.Drivers.Clou.Packets.Out.CL311_RequestReadStdParamPacket" Collapsed="true">
+    <Position X="11.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Drivers\Clou\Packets\Out\DeviceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

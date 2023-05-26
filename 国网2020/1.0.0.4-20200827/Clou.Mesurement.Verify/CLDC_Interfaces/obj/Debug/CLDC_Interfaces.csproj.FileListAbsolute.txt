@@ -1,0 +1,10 @@
+E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Interfaces\obj\Debug\ResolveAssemblyReference.cache
+E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Interfaces\bin\Debug\CLDC_Interfaces.dll
+E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Interfaces\bin\Debug\CLDC_Interfaces.pdb
+E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Interfaces\obj\Debug\CLDC_Interfaces.dll
+E:\SVN\CL3000S-H\新建文件夹 (6) - 通用\CL3000S-H\CL3000S-H\CLDC_Interfaces\obj\Debug\CLDC_Interfaces.pdb
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_Interfaces\obj\Debug\CLDC_Interfaces.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_Interfaces\obj\Debug\CLDC_Interfaces.pdb
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_Interfaces\bin\Debug\CLDC_Interfaces.dll
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_Interfaces\bin\Debug\CLDC_Interfaces.pdb
+E:\SVN\CL3000S-H\CL3000S-H_R\CL3000S-H\CLDC_Interfaces\obj\Debug\CLDC_Interfaces.csprojResolveAssemblyReference.cache

@@ -1,0 +1,138 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--登录界面-->
+    <sys:String x:Key="科陆计量一体化检定平台">Verification Platform</sys:String>
+    <sys:String x:Key="检验员">Verifier</sys:String>
+    <sys:String x:Key="核验员">Auditor</sys:String>
+    <sys:String x:Key="密码">Password</sys:String>
+    <sys:String x:Key="语言">Language</sys:String>
+    <sys:String x:Key="保护电压">Guard Voltage</sys:String>
+    <sys:String x:Key="保护电流">Guard Current</sys:String>
+    <sys:String x:Key="登录">Login</sys:String>
+    <sys:String x:Key="退出">Quit</sys:String>
+    <sys:String x:Key="版权">Power by Clou</sys:String>
+    <sys:String x:Key="用户管理">User Management</sys:String>
+    <!--主目录-->
+    <!--表信息-->
+    <sys:String x:Key="检定">Verify</sys:String>
+    <sys:String x:Key="电表信息">Meter</sys:String>
+    <sys:String x:Key="更换新表">NewMeter</sys:String>
+    <sys:String x:Key="录入完成">Complete</sys:String>
+    <sys:String x:Key="下载信息">DownMeters</sys:String>
+    <sys:String x:Key="下载方案">DownSchema</sys:String>
+    <!--检定-->
+    <sys:String x:Key="连续检定">Continuous</sys:String>
+    <sys:String x:Key="单步检定">Step</sys:String>
+    <sys:String x:Key="单步循环">Loop</sys:String>
+    <sys:String x:Key="停止检定">Stop</sys:String>
+    <!--审核-->
+    <sys:String x:Key="审核">Audit</sys:String>
+    <!--方案-->
+    <sys:String x:Key="方案">Schema</sys:String>
+    <sys:String x:Key="浏览">Browse</sys:String>
+    <sys:String x:Key="新建">New</sys:String>
+    <sys:String x:Key="编辑">Edit</sys:String>
+    <sys:String x:Key="删除">Delete</sys:String>
+    <sys:String x:Key="复制">Copy</sys:String>
+    <!--视图-->
+    <sys:String x:Key="视图">View</sys:String>
+    <!--工具-->
+    <sys:String x:Key="工具">Tools</sys:String>
+    <!--配置-->
+    <sys:String x:Key="配置">Config</sys:String>
+    <!--数据-->
+    <sys:String x:Key="数据">Data</sys:String>
+    <!--主题-->
+    <sys:String x:Key="主题">Theme</sys:String>
+    <!--窗口-->
+    <sys:String x:Key="窗口">Window</sys:String>
+    <!--帮助-->
+    <sys:String x:Key="帮助">Help</sys:String>
+    <!--各页面的标题-->
+    <sys:String x:Key="详细结论">DetailResult</sys:String>
+    <sys:String x:Key="编码维护">CodeMaintainance</sys:String>
+    <sys:String x:Key="软件配置">SoftwareConfig</sys:String>
+    <sys:String x:Key="用户操作日志">OperationLog</sys:String>
+    <sys:String x:Key="数据库存取日志">DatabaseLog</sys:String>
+    <sys:String x:Key="检定业务日志">VerifyLog</sys:String>
+    <sys:String x:Key="设备操作日志">DeviceLog</sys:String>
+    <sys:String x:Key="多线程日志">TaskLog</sys:String>
+    <sys:String x:Key="结论概览">ResultSummary</sys:String>
+    <sys:String x:Key="表位状态">MeterStatus</sys:String>
+    <sys:String x:Key="检定方案">Schema</sys:String>
+    <sys:String x:Key="标准表信息">Standard Meter</sys:String>
+    <sys:String x:Key="结论配置">ResultConfig</sys:String>
+    <sys:String x:Key="本地服务">Service</sys:String>
+    <sys:String x:Key="设备操作">Device Control</sys:String>
+    <!--设备操作-->
+    <!--基本控制-->
+    <sys:String x:Key="基本控制">Basic Control</sys:String>
+    <sys:String x:Key="电机向下">Motor Down</sys:String>
+    <sys:String x:Key="电机向上">Motor Up</sys:String>
+    <sys:String x:Key="电机向前">电机向前</sys:String>
+    <sys:String x:Key="电机向后">电机向后</sys:String>
+    <sys:String x:Key="读上下限位">读上下限位</sys:String>
+    <sys:String x:Key="读翻转位置">Read Position</sys:String>
+    <sys:String x:Key="循环间隔">Loop Interval</sys:String>
+    <sys:String x:Key="秒">S</sys:String>
+    <sys:String x:Key="电机循环压接">电机循环压接</sys:String>
+    <sys:String x:Key="停止循环压接">停止循环压接</sys:String>
+    <sys:String x:Key="全表位恢复">全表位恢复</sys:String>
+    <sys:String x:Key="隔离选中表位">隔离选中表位</sys:String>
+    <sys:String x:Key="误差状态">误差状态</sys:String>
+    <sys:String x:Key="计数状态">计数状态</sys:String>
+    <sys:String x:Key="停止当前功能">停止当前功能</sys:String>
+    <sys:String x:Key="对标">对标</sys:String>
+    <sys:String x:Key="日计时状态">日计时状态</sys:String>
+    <sys:String x:Key="需量周期状态">需量周期状态</sys:String>
+    <sys:String x:Key="停止所有功能">停止所有功能</sys:String>
+    <sys:String x:Key="多功能计数">多功能计数</sys:String>
+    <sys:String x:Key="挂表位置状态">挂表位置状态</sys:String>
+    <sys:String x:Key="耐压测试位置">耐压测试位置</sys:String>
+    <sys:String x:Key="待检位置状态">待检位置状态</sys:String>
+    <sys:String x:Key="点亮">点亮</sys:String>
+    <sys:String x:Key="闪烁">闪烁</sys:String>
+    <sys:String x:Key="蓝">Blue</sys:String>
+    <sys:String x:Key="绿">Green</sys:String>
+    <sys:String x:Key="红">Red</sys:String>
+    <sys:String x:Key="循环三色灯">循环三色灯</sys:String>
+    <sys:String x:Key="灭灯">灭灯</sys:String>
+    <sys:String x:Key="台体供电">台体供电</sys:String>
+    <sys:String x:Key="台体停电">台体停电</sys:String>
+    <sys:String x:Key="一回路">一回路</sys:String>
+    <sys:String x:Key="二回路">二回路</sys:String>
+    <sys:String x:Key="继电器耐压供电">继电器(耐压供电)</sys:String>
+    <sys:String x:Key="继电器载波供电">继电器(载波供电)</sys:String>
+    <sys:String x:Key="继电器普通供电直接">继电器(普通供电直接)</sys:String>
+    <sys:String x:Key="继电器普通供电互感">继电器(普通供电互感)</sys:String>
+    <sys:String x:Key="读CT档位">读CT档位</sys:String>
+    <sys:String x:Key="切100A档">切100A档</sys:String>
+    <sys:String x:Key="切2A档">切2A档</sys:String>
+    <sys:String x:Key="读取表地址">读取表地址</sys:String>
+    <sys:String x:Key="切时钟脉冲">切时钟脉冲</sys:String>
+    <sys:String x:Key="切标准脉冲">切标准脉冲</sys:String>
+    <sys:String x:Key="人体红外">人体红外</sys:String>
+    <sys:String x:Key="启动">启动</sys:String>
+    <sys:String x:Key="停止">停止</sys:String>
+    <sys:String x:Key="读状态">读状态</sys:String>
+    <sys:String x:Key="电流档位">电流档位</sys:String>
+    <sys:String x:Key="标准表常数">标准表常数</sys:String>
+    <sys:String x:Key="读取标准表档位">读取标准表档位</sys:String>
+    <sys:String x:Key="设置标准表档位">设置标准表档位</sys:String>
+    <sys:String x:Key="读取标准表常数">读取标准表常数</sys:String>
+    <sys:String x:Key="设置标准表常数">设置标准表常数</sys:String>
+    <sys:String x:Key="输出有功脉冲">输出有功脉冲</sys:String>
+    <sys:String x:Key="输出无功脉冲">输出无功脉冲</sys:String>
+    <sys:String x:Key="停止输出脉冲">停止输出脉冲</sys:String>
+    <sys:String x:Key="启动走字">启动走字</sys:String>
+    <sys:String x:Key="停止走字">停止走字</sys:String>
+    <sys:String x:Key="启动电能误差">启动电能误差</sys:String>
+    <sys:String x:Key="停止电能误差">停止电能误差</sys:String>
+    
+    
+    <sys:String x:Key="高级操作">高级操作</sys:String>
+    <sys:String x:Key="电源控制">电源控制</sys:String>
+    <sys:String x:Key="遥信遥控直流">遥信,遥控,直流</sys:String>
+    <sys:String x:Key="加密机">加密机</sys:String>
+</ResourceDictionary>

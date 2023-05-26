@@ -1,0 +1,32 @@
+获取表:schema_info 的列名称列表错误.
+
+查询数据库失败,sql语句为:select * from schema_info
+
+获取表:schema_info 的列名称列表错误.
+
+查询数据库失败,sql语句为:select * from schema_info
+
+获取表:schema_info 的列名称列表错误.
+
+查询数据库失败,sql语句为:select * from schema_info
+
+获取表:schema_info 的列名称列表错误.
+
+查询数据库失败,sql语句为:select * from schema_info
+
+获取表:schema_info 的列名称列表错误.
+
+查询数据库失败,sql语句为:select * from schema_info
+
+获取表:schema_info 的列名称列表错误.
+
+查询数据库失败,sql语句为:select * from schema_info
+
+获取表:schema_info 的列名称列表错误.
+
+查询数据库失败,sql语句为:select * from schema_info
+
+获取表:schema_info 的列名称列表错误.
+
+查询数据库失败,sql语句为:select * from schema_info
+

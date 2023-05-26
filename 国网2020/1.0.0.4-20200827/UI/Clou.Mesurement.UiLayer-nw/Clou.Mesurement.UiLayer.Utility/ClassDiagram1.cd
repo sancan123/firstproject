@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Mesurement.UiLayer.Utility.Log.LogManager">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAEAAAAAQAhCAAAAAAAAAAAAA=</HashCode>
+      <FileName>Log\LogManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mesurement.UiLayer.Utility.DogPackage.DogHelper">
+    <Position X="3.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAAQAAAAAoAAAAAABgAAAIYhAAgAAABQI=</HashCode>
+      <FileName>DogPackage\DogHelpere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

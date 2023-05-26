@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17cc8c45-74d3-4548-934b-a6c4d13e020e}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>ModelingProject1</Name>
+    <RootNamespace>ModelingProject1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\ModelingProject1.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="LayerDiagram1.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="LayerDiagram1.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="LayerDiagram1.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>LayerDiagram1.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CLDC_Comm\CLDC_Comm.csproj">
+      <Name>CLDC_Comm</Name>
+      <Project>{e560abe8-cb10-4c34-be57-658019cd68de}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_DataCore\CLDC_DataCore.csproj">
+      <Name>CLDC_DataCore</Name>
+      <Project>{20d2784f-db83-45aa-b9f0-41d0bc951426}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_DeviceDriver\CLDC_DeviceDriver.csproj">
+      <Name>CLDC_DeviceDriver</Name>
+      <Project>{25215a48-58c0-4511-9aee-3c4a2476d139}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_Encryption\CLDC_Encryption.csproj">
+      <Name>CLDC_Encryption</Name>
+      <Project>{8fa9587e-8ebb-4a30-846e-640c9c028d3f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_Interfaces\CLDC_Interfaces.csproj">
+      <Name>CLDC_Interfaces</Name>
+      <Project>{ac75b680-4c27-4e85-9b88-4f8b7cefc5b3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_MeterProtocol\CLDC_MeterProtocol.csproj">
+      <Name>CLDC_MeterProtocol</Name>
+      <Project>{5f14e334-1249-4caa-a83a-78a40e7bdd19}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_SafeFileProtocol\CLDC_SafeFileProtocol.csproj">
+      <Name>CLDC_SafeFileProtocol</Name>
+      <Project>{6db189d0-10d1-443d-a4b1-71f5707af784}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_VerifyAdapter\CLDC_VerifyAdapter.csproj">
+      <Name>CLDC_VerifyAdapter</Name>
+      <Project>{bdee401e-88ba-46cb-9438-fdf529e2cc2c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_VerifyClient\CLDC_VerifyClient.csproj">
+      <Name>CLDC_VerifyClient</Name>
+      <Project>{67879eb7-2a27-44a5-92dc-de8678563b8c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CLDC_VerifyServer\CLDC_VerifyServer.csproj">
+      <Name>CLDC_VerifyServer</Name>
+      <Project>{7a858e71-163d-4c78-b5f2-d77c9a862712}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

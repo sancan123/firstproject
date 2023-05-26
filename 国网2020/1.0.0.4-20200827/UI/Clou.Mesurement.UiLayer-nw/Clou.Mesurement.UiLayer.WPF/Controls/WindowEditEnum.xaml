@@ -1,0 +1,61 @@
+﻿<Window x:Class="Mesurement.UiLayer.WPF.Controls.WindowEditEnum"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mesurement.UiLayer.WPF.Controls"
+        WindowStyle="None"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="WindowEditEnum" Height="400" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListBox Name="listBox">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center"
+                                   Width="50" Margin="5,0"
+                                   Text="{Binding textValue}"/>
+                        <TextBlock VerticalAlignment="Center"
+                                   Margin="5,0" 
+                                   HorizontalAlignment="Center" 
+                                   Text="{Binding textName}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Grid.Column="1">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{DynamicResource 值}" Margin="5,0" Width="50"
+                           VerticalAlignment="Center"/>
+                <TextBox Name="textNewValue" Width="200" Margin="3"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{DynamicResource 名称}" Margin="5,0" Width="50"
+                           VerticalAlignment="Center"/>
+                <TextBox Name="textNewName" Width="200" Margin="3"/>
+            </StackPanel>
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button Content="{DynamicResource 确认}" HorizontalAlignment="Center"
+                        Width="80"
+                        Margin="5"
+                        Click="Button_Click"
+                        VerticalAlignment="Center"/>
+                <Button Content="{DynamicResource 取消}" HorizontalAlignment="Center"
+                        Width="80"
+                        Margin="5"
+                        Click="Button_Click"
+                        Grid.Column="1"
+                        VerticalAlignment="Center"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

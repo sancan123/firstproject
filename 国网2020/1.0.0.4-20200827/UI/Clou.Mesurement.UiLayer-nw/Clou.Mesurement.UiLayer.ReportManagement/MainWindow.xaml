@@ -1,0 +1,32 @@
+﻿<Window  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    x:Class="Mesurement.UiLayer.DataManager.MainWindow"
+    x:Name="window"
+    Height="700" 
+    Width="1200" 
+        FontFamily="Calibri" 
+    FontSize="14"
+    Icon="报表.ico"
+        WindowState="Maximized"
+    WindowStartupLocation="CenterScreen"
+    Title="CSG_DXB检定数据管理软件" 
+         Background="{DynamicResource BrushWindowColor}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Frame Grid.Row="1"
+               Name="frameMain"/>
+        <TextBlock FontSize="18"
+                   Grid.Row="2"
+                   Name="textBlockMessage"
+                   Margin="3"
+                   VerticalAlignment="Center"
+                   TextWrapping="WrapWithOverflow"
+                   Visibility="{Binding IsVisible, Converter={StaticResource BoolToVisibilityConverter}}"
+                   Text="{Binding Message}"/>
+    </Grid>
+</Window>

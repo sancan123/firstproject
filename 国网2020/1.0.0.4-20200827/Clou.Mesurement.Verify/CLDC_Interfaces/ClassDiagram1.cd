@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CLDC_Interfaces.MeterInfo" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAECAABAABABAJBgEAIQAAGAAAkAAAAAQABAAAABA=</HashCode>
+      <FileName>MeterInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_Interfaces.SingletonBase&lt;T&gt;" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SingletonBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_Interfaces.WcfDynamicHost.WcfServiceHost" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAMBAAAAAAAAAAAAA=</HashCode>
+      <FileName>WcfDynamicHost\WcfServiceHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_Interfaces.WcfDynamicProxy.Constants" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WcfDynamicProxy\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_Interfaces.WcfDynamicProxy.DynamicObject" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAgAgAAAIAAAgAAAAAACAAEAAAAAAIAAAACAAIA=</HashCode>
+      <FileName>WcfDynamicProxy\DynamicObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_Interfaces.WcfDynamicProxy.DynamicProxy" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>WcfDynamicProxy\DynamicProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_Interfaces.WcfDynamicProxy.DynamicProxyException" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABEAAAAAAAIAEAAAAIgAAAAAAAAAQA=</HashCode>
+      <FileName>WcfDynamicProxy\DynamicProxyException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_Interfaces.WcfDynamicProxy.DynamicProxyFactory" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEIogAACAEDEaABEAESAAAAQASUNAQAAIFCIAGBcCFA=</HashCode>
+      <FileName>WcfDynamicProxy\DynamicProxyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLDC_Interfaces.WcfDynamicProxy.DynamicProxyFactoryOptions" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAACEAAAAACAAAAAgAAAAAAAAAEQAAAA=</HashCode>
+      <FileName>WcfDynamicProxy\DynamicProxyFactoryOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CLDC_Interfaces.IVerifyControl">
+    <Position X="2.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIQAACAACAAAgQAAAAAAAAAAAAAAAAAYIAQAACAAAA=</HashCode>
+      <FileName>IVerifyControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CLDC_Interfaces.IVerifyMessage">
+    <Position X="4.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAQAAICAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVerifyMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CLDC_Interfaces.IVerifyForMis">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVerifyForMis.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CLDC_Interfaces.DataType.enum_MessageSourse" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQACAQAABAAAAAQAAAAAAAAAAAAAAgAAAAQ=</HashCode>
+      <FileName>DataType\enum_MessageSourse.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLDC_Interfaces.DataType.enum_MessageType" Collapsed="true">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DataType\enum_MessageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CLDC_Interfaces.DataType.enum_MonitorType" Collapsed="true">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAACACAAAAAEAEAAAAIAAEAAAAAQAAIAggQgAAAAAE=</HashCode>
+      <FileName>DataType\enum_MonitorType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="CLDC_Interfaces.WcfDynamicProxy.ProxyCodeModifier" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WcfDynamicProxy\DynamicProxyFactoryOptions.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

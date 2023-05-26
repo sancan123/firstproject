@@ -1,0 +1,163 @@
+﻿<basemodel:DockControlDisposable xmlns:Controls2="clr-namespace:Mesurement.UiLayer.WPF.Controls"  xmlns:Controls1="clr-namespace:Mesurement.UiLayer.WPF.Controls"  xmlns:Controls="clr-namespace:Mesurement.UiLayer.WPF.Controls" 
+    x:Class="Mesurement.UiLayer.WPF.View.ViewMeterZaiBO"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                                 xmlns:Sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:local="clr-namespace:Mesurement.UiLayer.WPF.Controls"
+             xmlns:basemodel="clr-namespace:Mesurement.UiLayer.WPF.Model"
+    xmlns:ViewModel="clr-namespace:Mesurement.UiLayer.ViewModel.ConfigMore;assembly=Mesurement.UiLayer.ViewModel"
+             mc:Ignorable="d" 
+                                 Foreground="{DynamicResource 字体颜色标准}"
+             d:DesignHeight="600" d:DesignWidth="900">
+    <basemodel:DockControlDisposable.Resources>
+        <XmlDataProvider x:Key="ProviderCarrierProtocol"
+                         Source="/Mesurement.UiLayer.WPF;component/CarrierProtocol.xml"/>
+        <ContextMenu x:Key="MenuCarrierProtocol">
+            <MenuItem Header="删除当前协议"
+                      Click="Click_DeleteCarrierProtocol"/>
+            <MenuItem Header="添加新协议"
+                      Click="Click_AddCarrierProtocol"/>
+        </ContextMenu>
+    </basemodel:DockControlDisposable.Resources>
+    <Grid HorizontalAlignment="Left"
+          Margin="10"
+          VerticalAlignment="Top" DataContext="{Binding Source={StaticResource ProviderCarrierProtocol}}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="listBox" Margin="3" 
+                 BorderBrush="{DynamicResource 边框颜色}"
+                 Background="{DynamicResource 窗口背景色}"
+                 DataContext="{Binding XPath=/CarrierProtocol/Protocols}" 
+					ItemsSource="{Binding XPath=R}"
+                                       ContextMenu="{StaticResource MenuCarrierProtocol}" 
+                 SelectedIndex="0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Controls2:EditBox Margin="3"
+                                       ContextMenu="{StaticResource MenuCarrierProtocol}"
+                               x:Name="textBlock"
+				Text="{Binding XPath=@Name,Mode=TwoWay}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Grid Grid.Column="1" DataContext="{Binding SelectedItem, ElementName=listBox}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel HorizontalAlignment="Left"
+                    Margin="3,3,10,3">
+                <StackPanel.Resources>
+                    <Style TargetType="ListBox">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListBox">
+                                    <StackPanel IsItemsHost="True"/>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="ItemTemplate">
+                            <Setter.Value>
+                                <DataTemplate>
+                                    <StackPanel Margin="3"
+                                Orientation="Horizontal">
+                                        <TextBlock Width="70"
+                                           TextAlignment="Left"
+                                           VerticalAlignment="Center"
+                                           Margin="3" Text="{Binding StringFormat=\{0\}:, XPath=@Display}"/>
+                                        <TextBox Width="130" Text="{Binding XPath=@Password,Mode=TwoWay}"/>
+                                        <TextBlock Text="等级:"
+                                           Margin="25,3,3,3"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Right"
+                                           Width="30"/>
+                                        <TextBox Width="60"
+                                         VerticalAlignment="Center" Text="{Binding XPath=@Class,Mode=TwoWay}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </StackPanel.Resources>
+                <Button HorizontalAlignment="Center"
+                        Click="Button_Click_Save"
+                        ToolTip="保存载波配置信息"
+                        Margin="5">
+                    <Image  Width="32"
+                        Height="32" 
+                            Source="/Mesurement.UiLayer.WPF;component/images/save.png"/>
+                </Button>
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox 
+                        x:Name="checkBox" Content="是否双模"
+                      Width="80"
+                      Margin="3"
+                          HorizontalAlignment="Right"
+                          IsChecked="{Binding XPath=IsCheck_SM,Mode=TwoWay}"/>
+
+                </StackPanel>
+                <StackPanel 
+                    Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        Margin="3">
+                    <TextBlock Text="通信参数:"
+                           Margin="3" Width="60"/>
+                    <Controls1:ControlEnumComboBox
+                    Width="100" 
+                    EnumName="SerialPortPara"
+                    Style="{DynamicResource StyleComboBox}" SelectedValue="{Binding XPath=BaudRate,Mode=TwoWay}"/>
+                    <TextBlock Text="通讯介质:"
+                           Margin="3"
+                           VerticalAlignment="Center"
+                           Width="60"/>
+                    <TextBox Width="100" Text="{Binding XPath=CarrierType,Mode=TwoWay}"/>
+
+                </StackPanel>
+                <StackPanel Margin="3"
+                        Orientation="Horizontal">
+                    <TextBlock Text="抄表器类型:"
+                           Margin="3"
+                           VerticalAlignment="Center"
+                           Width="60"/>
+                    <Controls1:ControlEnumComboBox
+                    Width="100" 
+                    Style="{DynamicResource StyleComboBox}"
+                        VerticalAlignment="Center"
+                        EnumName="CarrierType"
+                        SelectedIndex="{Binding XPath=RdType,Mode=TwoWay}"/>
+                    <TextBlock Text="通讯端口:"
+                           Margin="3"
+                               TextWrapping="WrapWithOverflow"
+                           VerticalAlignment="Center"
+                           Width="60"/>
+                    <TextBox
+                    Width="100" 
+                        VerticalAlignment="Center"
+                        Text="{Binding XPath=Comm,Mode=TwoWay}"/>
+                </StackPanel>
+
+                <Grid Height="5"
+                      Margin="0,3"
+                      HorizontalAlignment="Stretch"
+                      Background="{DynamicResource 窗口背景深色}"/>
+                <ListBox 
+                    ItemsSource="{Binding XPath=OperationsHaveKey/Operation}" Margin="3"
+                    Visibility="{Binding IsChecked, Converter={StaticResource BoolToVisibilityConverter}, ElementName=checkBox}"/>
+                <ListBox 
+                    ItemsSource="{Binding XPath=OperationsNoKey/Operation}"
+                    Visibility="{Binding IsChecked, Converter={StaticResource NotBoolToVisibilityConverter}, ElementName=checkBox}"
+                        Margin="3,10,3,10"/>
+            </StackPanel>
+            <Grid Grid.Column="1"
+                  VerticalAlignment="Stretch"
+                  Width="5"
+                  HorizontalAlignment="Left"
+                  Background="{DynamicResource 窗口背景深色}"/>
+
+        </Grid>
+    </Grid>
+</basemodel:DockControlDisposable>
