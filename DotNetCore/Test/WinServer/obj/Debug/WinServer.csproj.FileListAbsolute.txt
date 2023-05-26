@@ -1,0 +1,9 @@
+C:\Users\00076427\Desktop\DotNetCore\Test\WinServer\bin\Debug\WinServer.exe
+C:\Users\00076427\Desktop\DotNetCore\Test\WinServer\bin\Debug\WinServer.pdb
+C:\Users\00076427\Desktop\DotNetCore\Test\WinServer\obj\Debug\WinServer.csproj.AssemblyReference.cache
+C:\Users\00076427\Desktop\DotNetCore\Test\WinServer\obj\Debug\WinServer.Form1.resources
+C:\Users\00076427\Desktop\DotNetCore\Test\WinServer\obj\Debug\WinServer.Properties.Resources.resources
+C:\Users\00076427\Desktop\DotNetCore\Test\WinServer\obj\Debug\WinServer.csproj.GenerateResource.cache
+C:\Users\00076427\Desktop\DotNetCore\Test\WinServer\obj\Debug\WinServer.csproj.CoreCompileInputs.cache
+C:\Users\00076427\Desktop\DotNetCore\Test\WinServer\obj\Debug\WinServer.exe
+C:\Users\00076427\Desktop\DotNetCore\Test\WinServer\obj\Debug\WinServer.pdb

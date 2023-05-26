@@ -1,0 +1,11 @@
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\bin\PositiveDirectionServer.dll.config
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\bin\PositiveDirectionServer.dll
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\bin\PositiveDirectionServer.pdb
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\bin\DataHelper.dll
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\bin\Oracle.ManagedDataAccess.dll
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\bin\DataHelper.pdb
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\obj\Release\PositiveDirectionServer.dll
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\obj\Release\PositiveDirectionServer.pdb
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\obj\Release\PositiveDirectionServer.csproj.CoreCompileInputs.cache
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\obj\Release\PositiveDirectionServer.csproj.CopyComplete
+E:\其他代码\正反向隔离装置穿透\PositiveDirectionServer\obj\Release\PositiveDirectionServer.csproj.AssemblyReference.cache

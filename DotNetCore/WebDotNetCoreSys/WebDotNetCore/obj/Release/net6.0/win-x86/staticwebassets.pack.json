@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\obj\\Release\\net6.0\\win-x86\\scopedcss\\projectbundle\\WebDotNetCore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebDotNetCore.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\jquery-3.0.0.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.0.0.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8.zip",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8.zip"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\css\\layui.css",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\css\\layui.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\code.css",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\code.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\laydate\\default\\laydate.css",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\laydate\\default\\laydate.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\icon-ext.png",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\icon-ext.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\icon.png",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\layer.css",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\layer.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\loading-0.gif",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\loading-0.gif"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\loading-1.gif",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\loading-1.gif"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\loading-2.gif",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\css\\modules\\layer\\default\\loading-2.gif"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.eot",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.svg",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.ttf",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.woff",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.woff2",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\font\\iconfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\layui\\layui.js",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\layui\\layui.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\test.html",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\test.html"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\layui\\layui-v2.6.8\\免责声明.url",
+      "PackagePath": "staticwebassets\\js\\layui\\layui-v2.6.8\\免责声明.url"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery\\dist\\jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.WebDotNetCore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.build.WebDotNetCore.props",
+      "PackagePath": "build\\WebDotNetCore.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.WebDotNetCore.props",
+      "PackagePath": "buildMultiTargeting\\WebDotNetCore.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.WebDotNetCore.props",
+      "PackagePath": "buildTransitive\\WebDotNetCore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,15 @@
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\bin\Debug\net6.0\DotNetConSys.exe
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\bin\Debug\net6.0\DotNetConSys.deps.json
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\bin\Debug\net6.0\DotNetConSys.runtimeconfig.json
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\bin\Debug\net6.0\DotNetConSys.dll
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\bin\Debug\net6.0\DotNetConSys.pdb
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\DotNetConSys.csproj.AssemblyReference.cache
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\DotNetConSys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\DotNetConSys.AssemblyInfoInputs.cache
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\DotNetConSys.AssemblyInfo.cs
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\DotNetConSys.csproj.CoreCompileInputs.cache
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\DotNetConSys.dll
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\refint\DotNetConSys.dll
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\DotNetConSys.pdb
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\DotNetConSys.genruntimeconfig.cache
+C:\Users\00076427\Desktop\DotNetCore\DotNetConSys\obj\Debug\net6.0\ref\DotNetConSys.dll

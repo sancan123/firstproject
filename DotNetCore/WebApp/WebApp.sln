@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "WebApp.csproj", "{4E612FCD-8437-47ED-99DE-EBEEBFCDF766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCoreSys", "..\WebCoreSys\WebCoreSys.csproj", "{CD359AAF-EF43-4D16-A079-E3DF7511F512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "..\WpfApp1\WpfApp1.csproj", "{118B1320-637C-4CFA-8A0B-00DB047C3B69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E612FCD-8437-47ED-99DE-EBEEBFCDF766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E612FCD-8437-47ED-99DE-EBEEBFCDF766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E612FCD-8437-47ED-99DE-EBEEBFCDF766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E612FCD-8437-47ED-99DE-EBEEBFCDF766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD359AAF-EF43-4D16-A079-E3DF7511F512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD359AAF-EF43-4D16-A079-E3DF7511F512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD359AAF-EF43-4D16-A079-E3DF7511F512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD359AAF-EF43-4D16-A079-E3DF7511F512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118B1320-637C-4CFA-8A0B-00DB047C3B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118B1320-637C-4CFA-8A0B-00DB047C3B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118B1320-637C-4CFA-8A0B-00DB047C3B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118B1320-637C-4CFA-8A0B-00DB047C3B69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CD1CDE3-5272-4285-8BB9-2EB9888E5F83}
+	EndGlobalSection
+EndGlobal

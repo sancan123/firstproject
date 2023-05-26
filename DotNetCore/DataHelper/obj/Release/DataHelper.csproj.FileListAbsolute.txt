@@ -1,0 +1,8 @@
+E:\其他代码\正反向隔离装置穿透\DataHelper\bin\Release\DataHelper.dll
+E:\其他代码\正反向隔离装置穿透\DataHelper\bin\Release\DataHelper.pdb
+E:\其他代码\正反向隔离装置穿透\DataHelper\bin\Release\Oracle.ManagedDataAccess.dll
+E:\其他代码\正反向隔离装置穿透\DataHelper\obj\Release\DataHelper.dll
+E:\其他代码\正反向隔离装置穿透\DataHelper\obj\Release\DataHelper.pdb
+E:\其他代码\正反向隔离装置穿透\DataHelper\obj\Release\DataHelper.csproj.CoreCompileInputs.cache
+E:\其他代码\正反向隔离装置穿透\DataHelper\obj\Release\DataHelper.csproj.CopyComplete
+E:\其他代码\正反向隔离装置穿透\DataHelper\obj\Release\DataHelper.csproj.AssemblyReference.cache

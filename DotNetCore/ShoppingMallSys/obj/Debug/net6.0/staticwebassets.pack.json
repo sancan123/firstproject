@@ -1,0 +1,465 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingMallSys.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ShoppingMallSys.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\_menu.json",
+      "PackagePath": "staticwebassets\\_menu.json"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\css\\default.css",
+      "PackagePath": "staticwebassets\\css\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\css\\demo.css",
+      "PackagePath": "staticwebassets\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\css\\loaders.css",
+      "PackagePath": "staticwebassets\\css\\loaders.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\Detector.js",
+      "PackagePath": "staticwebassets\\img\\Detector.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\RequestAnimationFrame.js",
+      "PackagePath": "staticwebassets\\img\\RequestAnimationFrame.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\ThreeExtras.js",
+      "PackagePath": "staticwebassets\\img\\ThreeExtras.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\ThreeWebGL.js",
+      "PackagePath": "staticwebassets\\img\\ThreeWebGL.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\cloud.png",
+      "PackagePath": "staticwebassets\\img\\cloud.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\key.png",
+      "PackagePath": "staticwebassets\\img\\key.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\lock_icon_copy.png",
+      "PackagePath": "staticwebassets\\img\\lock_icon_copy.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\puff.svg",
+      "PackagePath": "staticwebassets\\img\\puff.svg"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\tick.png",
+      "PackagePath": "staticwebassets\\img\\tick.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\img\\user_icon_copy.png",
+      "PackagePath": "staticwebassets\\img\\user_icon_copy.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\js\\Particleground.js",
+      "PackagePath": "staticwebassets\\js\\Particleground.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\js\\Treatment.js",
+      "PackagePath": "staticwebassets\\js\\Treatment.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\js\\jquery.mockjax.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mockjax.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\js\\stopExecutionOnTimeout.js",
+      "PackagePath": "staticwebassets\\js\\stopExecutionOnTimeout.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\global.css",
+      "PackagePath": "staticwebassets\\layui\\css\\global.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\layui.css",
+      "PackagePath": "staticwebassets\\layui\\css\\layui.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\layui.mobile.css",
+      "PackagePath": "staticwebassets\\layui\\css\\layui.mobile.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\modules\\code.css",
+      "PackagePath": "staticwebassets\\layui\\css\\modules\\code.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\modules\\laydate\\icon.png",
+      "PackagePath": "staticwebassets\\layui\\css\\modules\\laydate\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\modules\\laydate\\laydate.css",
+      "PackagePath": "staticwebassets\\layui\\css\\modules\\laydate\\laydate.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\modules\\layer\\default\\icon-ext.png",
+      "PackagePath": "staticwebassets\\layui\\css\\modules\\layer\\default\\icon-ext.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\modules\\layer\\default\\icon.png",
+      "PackagePath": "staticwebassets\\layui\\css\\modules\\layer\\default\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\modules\\layer\\default\\layer.css",
+      "PackagePath": "staticwebassets\\layui\\css\\modules\\layer\\default\\layer.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\modules\\layer\\default\\loading-0.gif",
+      "PackagePath": "staticwebassets\\layui\\css\\modules\\layer\\default\\loading-0.gif"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\modules\\layer\\default\\loading-1.gif",
+      "PackagePath": "staticwebassets\\layui\\css\\modules\\layer\\default\\loading-1.gif"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\css\\modules\\layer\\default\\loading-2.gif",
+      "PackagePath": "staticwebassets\\layui\\css\\modules\\layer\\default\\loading-2.gif"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\code.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\code.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\element.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\element.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\flow.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\flow.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\form.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\form.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\laydate.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\laydate.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\layedit.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\layedit.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\layer.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\layer.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\laypage.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\laypage.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\laytpl.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\laytpl.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\mobile.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\mobile.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\tree.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\tree.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\upload.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\upload.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\lay\\modules\\util.js",
+      "PackagePath": "staticwebassets\\layui\\lay\\modules\\util.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\layui\\layui.js",
+      "PackagePath": "staticwebassets\\layui\\layui.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\00076427\\Desktop\\DotNetCore\\ShoppingMallSys\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ShoppingMallSys.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ShoppingMallSys.props",
+      "PackagePath": "build\\ShoppingMallSys.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ShoppingMallSys.props",
+      "PackagePath": "buildMultiTargeting\\ShoppingMallSys.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ShoppingMallSys.props",
+      "PackagePath": "buildTransitive\\ShoppingMallSys.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication2</name>
+    </assembly>
+    <members>
+        <member name="T:WebApplication2.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:WebApplication2.Controllers.WeatherForecastController.#ctor(Microsoft.Extensions.Logging.ILogger{WebApplication2.Controllers.WeatherForecastController})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+    </members>
+</doc>

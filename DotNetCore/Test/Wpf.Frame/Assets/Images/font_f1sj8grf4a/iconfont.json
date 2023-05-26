@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5388002",
+      "name": "日期_o",
+      "font_class": "riqi_o",
+      "unicode": "ebb1",
+      "unicode_decimal": 60337
+    }
+  ]
+}

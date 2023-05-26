@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "jF0fVHOE0sVjEbm1920QjKRMWYDj0TS8CmGuSKDhSrdXfNuU15YvKY4ukho7Wzn5NITHbCrpdIYcVle6Fq/z/g==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\00076427\\Desktop\\DotNetCore\\WebDotNetCoreSys\\WebDotNetCore\\WebDotNetCore.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到包 Microsoft.NETCore.App.Runtime.win-x64。源 Microsoft Visual Studio Offline Packages 中不存在具有此 ID 的包",
+      "libraryId": "Microsoft.NETCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到包 Microsoft.WindowsDesktop.App.Runtime.win-x64。源 Microsoft Visual Studio Offline Packages 中不存在具有此 ID 的包",
+      "libraryId": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到包 Microsoft.AspNetCore.App.Runtime.win-x64。源 Microsoft Visual Studio Offline Packages 中不存在具有此 ID 的包",
+      "libraryId": "Microsoft.AspNetCore.App.Runtime.win-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "找不到包 Microsoft.NETCore.App.Crossgen2.win-x64。源 Microsoft Visual Studio Offline Packages 中不存在具有此 ID 的包",
+      "libraryId": "Microsoft.NETCore.App.Crossgen2.win-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

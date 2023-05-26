@@ -1,0 +1,7 @@
+C:\Users\00076427\Desktop\DotNetCore\WSys\obj\Release\netcoreapp3.1\PubTmp\Out\WSys.exe
+C:\Users\00076427\Desktop\DotNetCore\WSys\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\00076427\Desktop\DotNetCore\WSys\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\00076427\Desktop\DotNetCore\WSys\obj\Release\netcoreapp3.1\PubTmp\Out\WSys.dll
+C:\Users\00076427\Desktop\DotNetCore\WSys\obj\Release\netcoreapp3.1\PubTmp\Out\WSys.deps.json
+C:\Users\00076427\Desktop\DotNetCore\WSys\obj\Release\netcoreapp3.1\PubTmp\Out\WSys.runtimeconfig.json
+C:\Users\00076427\Desktop\DotNetCore\WSys\obj\Release\netcoreapp3.1\PubTmp\Out\WSys.pdb

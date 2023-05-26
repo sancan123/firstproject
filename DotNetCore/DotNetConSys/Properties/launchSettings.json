@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DotNetConSys": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7547;http://localhost:7548"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\其他代码\正反向隔离装置穿透\Resource\Client\ForwardProxy</_PublishTargetUrl>
+    <History>True|2022-03-18T06:23:11.1221687Z;True|2022-01-11T17:22:53.1700654+08:00;True|2021-12-24T17:15:11.7865546+08:00;True|2021-12-11T17:34:20.4424592+08:00;True|2021-12-11T17:28:50.3012910+08:00;True|2021-12-11T17:05:51.4880853+08:00;True|2021-12-09T18:46:02.3226774+08:00;True|2021-12-09T18:31:42.6581017+08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/DataHelper.dll">
+      <publishTime>03/18/2022 14:23:10</publishTime>
+    </File>
+    <File Include="bin/DataHelper.pdb">
+      <publishTime>03/18/2022 14:23:10</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>12/24/2017 15:42:00</publishTime>
+    </File>
+    <File Include="bin/PositiveDirectionServer.dll">
+      <publishTime>03/18/2022 14:23:10</publishTime>
+    </File>
+    <File Include="bin/PositiveDirectionServer.pdb">
+      <publishTime>03/18/2022 14:23:10</publishTime>
+    </File>
+    <File Include="PositiveDirection.asmx">
+      <publishTime>08/04/2021 14:12:36</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/24/2021 12:05:15</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

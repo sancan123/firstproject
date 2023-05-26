@@ -1,0 +1,61 @@
+﻿@{
+    Layout = null;
+}
+
+@model Web.Models.UserModel;
+@using Web.Models;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Default</title>
+    <link href="..\lib\bootstrap-5.3.0-alpha1-dist\css\bootstrap.css" rel="stylesheet" />
+    <link href="..\lib\bootstrap-5.3.0-alpha1-dist\css\bootstrap.min.css" rel="stylesheet" />
+    <link href="..\lib\bootstrap-5.3.0-alpha1-dist\css\bootstrap.rtl.css" rel="stylesheet" />
+    <link href="..\lib\bootstrap-5.3.0-alpha1-dist\css\bootstrap.rtl.min.css" rel="stylesheet" />
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+
+    <script src="..\lib\bootstrap-5.3.0-alpha1-dist\js\bootstrap.bundle.js"></script>
+    <script src="..\lib\bootstrap-5.3.0-alpha1-dist\js\bootstrap.bundle.min.js"></script>
+    @*<script src="..\lib\bootstrap-5.3.0-alpha1-dist\js\bootstrap.esm.js"></script>
+    <script src="..\lib\bootstrap-5.3.0-alpha1-dist\js\bootstrap.esm.min.js"></script>*@
+    <script src="..\lib\bootstrap-5.3.0-alpha1-dist\js\bootstrap.js"></script>
+    <script src="..\lib\bootstrap-5.3.0-alpha1-dist\js\bootstrap.min.js"></script>
+
+
+    @* <link href="~/lib/layui-v2.6.8/layui/css/layui.css" rel="stylesheet" />*@
+
+
+</head>
+<body>
+    <div class="container">
+       <div class="row">
+            <div class="row row-cols-4">
+    @{
+         
+        foreach (UserModel item in ViewData["list"] as List<UserModel>)
+        {
+            
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">@item.UserName</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    @*<a href="#" class="card-link">Card link</a>*@
+                    @Html.ActionLink("Card link","ShowDetail","Home",new { id=item.Id},new {@class="card-link"});
+                    @*<a asp-controller="Home"  asp-action="Detail"   class="card-link">Another link</a>*@
+                    @Html.ActionLink("Another","Detail","Home",new{ id=item.Id},new {style="",@class="card-link"})
+                </div>
+            </div>
+           
+        }
+    
+    }
+        </div>
+    </div>
+    </div>
+</body>
+</html>

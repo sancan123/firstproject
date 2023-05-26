@@ -1,0 +1,52 @@
+﻿<Window x:Class="Wpf.Frame.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        FontFamily="Microsoft YaHei" FontWeight="ExtraLight" FontSize="13"
+        xmlns:local="clr-namespace:Wpf.Frame"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="700" Width="1300">
+    <!--无边框-->
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="-1" />
+    </WindowChrome.WindowChrome>
+    <!--线性渐变-->
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#F7F9FA" Offset="0"></GradientStop>
+            <GradientStop Color="#FFD4EEFB" Offset="1"></GradientStop>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Border Background="#FF1D5390"  BorderBrush="White" BorderThickness="0,0,1,0"></Border>
+        <StackPanel >
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15">
+                <Image  Source="../Assets/Images/123.gif" Width="35" Margin="0,0,10,0" Height="15"></Image>
+                <TextBlock Text="自学MES" VerticalAlignment="Center" Foreground="#FFDEFBFF" FontSize="16"></TextBlock>
+            </StackPanel>
+            <TreeView Background="Transparent" BorderThickness="0" ItemsSource="{ Binding  TreeList}">
+                <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30" Name="c1" ></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock  Text="{Binding IconCode}" FontFamily="{StaticResource Iconfont}" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" SnapsToDevicePixels="True"></TextBlock>
+                            <TextBlock Text="{Binding Header}"  Grid.Column="1" Margin="5,0,0,0"  FontSize="13"></TextBlock>
+                        </Grid>
+                        
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+            </TreeView>
+        </StackPanel>
+
+        
+    </Grid>
+</Window>

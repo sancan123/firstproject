@@ -1,0 +1,17 @@
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form4.resources
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\bin\Debug\DataHelper.dll
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\bin\Debug\DataHelper.pdb
+C:\Users\00076427\Desktop\DotNetCore\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

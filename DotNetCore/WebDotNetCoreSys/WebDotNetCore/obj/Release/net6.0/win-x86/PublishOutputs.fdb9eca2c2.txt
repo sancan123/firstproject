@@ -1,0 +1,6 @@
+C:\Users\00076427\Desktop\DotNetCore\WebDotNetCoreSys\WebDotNetCore\obj\Release\net6.0\win-x86\PubTmp\Out\Views\Home\web.config
+C:\Users\00076427\Desktop\DotNetCore\WebDotNetCoreSys\WebDotNetCore\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.Development.json
+C:\Users\00076427\Desktop\DotNetCore\WebDotNetCoreSys\WebDotNetCore\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.json
+C:\Users\00076427\Desktop\DotNetCore\WebDotNetCoreSys\WebDotNetCore\obj\Release\net6.0\win-x86\PubTmp\Out\libman.json
+C:\Users\00076427\Desktop\DotNetCore\WebDotNetCoreSys\WebDotNetCore\obj\Release\net6.0\win-x86\PubTmp\Out\WebDotNetCore.pdb
+C:\Users\00076427\Desktop\DotNetCore\WebDotNetCoreSys\WebDotNetCore\obj\Release\net6.0\win-x86\PubTmp\Out\WebDotNetCore.exe

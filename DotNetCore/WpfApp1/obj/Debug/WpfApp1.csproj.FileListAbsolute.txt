@@ -1,0 +1,16 @@
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\App.g.cs
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\00076427\Desktop\DotNetCore\WpfApp1\obj\Debug\WpfApp1.pdb

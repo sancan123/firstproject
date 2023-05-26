@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<Web.Models.UserModel>
+@using Web.Models;
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <table class="table table-bordered">    
+      <thead >
+            <tr class="success">
+                <th>12</th>
+                <th>12</th>
+                <th>12</th>
+                <th>12</th>
+                <th>12</th>
+                <th>12</th>
+                <th>12</th>
+                <th>12</th>
+          </tr>
+      </thead>
+        <tbody >
+           @{
+               List<UserModel> list=ViewData["d"] as List<UserModel>;
+               foreach (UserModel item in list)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.UserName</td>
+                        <td>@item.Address</td>
+                        <td>@item.Phone</td>
+                        <td>@item.Gender</td>
+                        <td>@item.Email</td>
+                        <td>@item.classify</td>
+                        <td>@item.Experience</td>
+                    </tr>
+                }
+           }
+       </tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+</div>

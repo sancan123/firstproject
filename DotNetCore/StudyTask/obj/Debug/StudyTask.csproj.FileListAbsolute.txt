@@ -1,0 +1,10 @@
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\bin\Debug\StudyTask.exe
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\bin\Debug\StudyTask.pdb
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\obj\Debug\StudyTask.csproj.AssemblyReference.cache
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\obj\Debug\StudyTask.csproj.CoreCompileInputs.cache
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\obj\Debug\StudyTask.exe
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\obj\Debug\StudyTask.pdb
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\bin\Debug\DataHelper.dll
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\bin\Debug\DataHelper.pdb
+C:\Users\00076427\Desktop\DotNetCore\StudyTask\obj\Debug\StudyTask.csproj.CopyComplete
